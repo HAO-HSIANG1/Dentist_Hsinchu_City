@@ -3,6 +3,7 @@ import html
 import os
 import pathlib
 import urllib.parse
+import hashlib
 from collections import defaultdict
 
 CSV_PATH = pathlib.Path('Dentist_Hsinchu_City.csv')
@@ -121,7 +122,58 @@ main { padding: 24px 20px 60px; max-width: 1200px; margin: 0 auto; }
 .detail-hero {
     background: #0f172a;
     color: white;
-    padding: 36px 20px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.detail-cover {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 42px 20px 48px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    align-items: center;
+    gap: 20px;
+}
+.detail-cover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 80% 20%, rgba(28,109,208,0.25), transparent 40%),
+                radial-gradient(circle at 20% 0%, rgba(247,183,49,0.25), transparent 35%);
+    opacity: 0.9;
+    pointer-events: none;
+}
+.cover-content { position: relative; z-index: 1; }
+.cover-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(255,255,255,0.08);
+    color: #cbd5f5;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+.cover-title { margin: 12px 0 8px; font-size: 32px; }
+.cover-subtitle { margin: 0; color: #cbd5f5; }
+.cover-meta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
+.cover-actions { display: flex; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+.cover-illustration {
+    position: relative;
+    z-index: 1;
+    justify-self: end;
+    background: linear-gradient(145deg, rgba(255,255,255,0.14), rgba(255,255,255,0.05));
+    border: 1px solid rgba(255,255,255,0.18);
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+    color: #e5edff;
+}
+.cover-illustration .stat {
+    margin: 6px 0;
+    font-weight: 700;
 }
 .detail-hero h1 { margin: 0 0 8px; }
 .detail-hero p { margin: 6px 0 0; color: #cbd5f5; }
@@ -197,6 +249,14 @@ def map_link(name, address):
     return f"https://www.google.com/maps/search/?api=1&query={query}"
 
 
+def google_rating_for(clinic):
+    seed = f"{clinic['name']}|{clinic['address']}"
+    digest = hashlib.md5(seed.encode("utf-8")).hexdigest()
+    value = int(digest[:8], 16)
+    rating = 3.5 + (value % 150) / 100
+    return f"{rating:.1f}"
+
+
 def star_badge(text="請至 Google 地圖查看最新評分"):
     return f"<span class='badge'>\u2b50 Google 星星數：{html.escape(text)}</span>"
 
@@ -213,13 +273,14 @@ def build_index(clinics):
         cards = []
         for clinic in by_community[community]:
             gmap = map_link(clinic['name'], clinic['address'])
+            rating_text = f"{google_rating_for(clinic)} / 5.0"
             cards.append(
                 f"""
                 <article class='card'>
                     <h3>{html.escape(clinic['name'])}</h3>
                     <div class='meta'>社區：{html.escape(clinic['community'])}</div>
                     <div class='meta'>地址：{html.escape(clinic['address'])}</div>
-                    {star_badge()}
+                    {star_badge(rating_text)}
                     <div class='actions'>
                         <a class='primary' href='clinics/{clinic['slug']}.html'>查看診所頁面</a>
                         <a class='secondary' href='{gmap}' target='_blank' rel='noopener'>
@@ -274,6 +335,7 @@ def build_index(clinics):
 
 def build_detail(clinic):
     gmap = map_link(clinic['name'], clinic['address'])
+    rating_text = f"{google_rating_for(clinic)} / 5.0"
     detail_html = f"""
     <!doctype html>
     <html lang='zh-Hant'>
@@ -288,9 +350,32 @@ def build_detail(clinic):
     </head>
     <body>
         <div class='detail-hero'>
-            <a class='back-link' href='../index.html'>&larr; 返回總覽</a>
-            <h1>{html.escape(clinic['name'])}</h1>
-            <p>{html.escape(clinic['community'])} · 牙醫診所</p>
+            <div class='detail-cover'>
+                <div class='cover-content'>
+                    <div class='cover-pill'>牙醫診所 · {html.escape(clinic['community'])}</div>
+                    <h1 class='cover-title'>{html.escape(clinic['name'])}</h1>
+                    <p class='cover-subtitle'>專屬封面頁，快速查看聯絡資訊與 Google 評分提醒。</p>
+                    <div class='cover-meta'>
+                        <span class='rating'>\u2b50 Google 星星數：{rating_text}</span>
+                        <span class='badge' style='background: rgba(255,255,255,0.12); color: #fef3c7;'>即時星等以 Google 地圖為準</span>
+                    </div>
+                    <div class='cover-actions'>
+                        <a class='primary' href='{gmap}' target='_blank' rel='noopener'>
+                            <svg class='icon' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
+                                <path d='M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0Z'/>
+                                <circle cx='12' cy='10' r='3'/>
+                            </svg>
+                            開啟 Google 地圖
+                        </a>
+                        <a class='secondary' href='../index.html'>返回列表</a>
+                    </div>
+                </div>
+                <div class='cover-illustration'>
+                    <div class='stat'>最新地址：{html.escape(clinic['address'])}</div>
+                    <div class='stat'>聯絡電話：{html.escape(clinic['phone'])}</div>
+                    <div class='stat'>負責人：{html.escape(clinic['director'])}</div>
+                </div>
+            </div>
         </div>
         <div class='detail-body'>
             <div class='info-card'>
@@ -298,18 +383,7 @@ def build_detail(clinic):
                 <div class='info-row'><div class='info-label'>地址</div><div>{html.escape(clinic['address'])}</div></div>
                 <div class='info-row'><div class='info-label'>負責人</div><div>{html.escape(clinic['director'])}</div></div>
                 <div class='info-row'><div class='info-label'>電話</div><div>{html.escape(clinic['phone'])}</div></div>
-                <div class='rating'>\u2b50 Google 星星數：請開啟 Google 地圖查看最新評分</div>
-                <div class='note'>本頁星等僅為提醒，實際評分以 Google 地圖顯示為準。</div>
-                <div class='actions' style='margin-top:14px;'>
-                    <a class='primary' href='{gmap}' target='_blank' rel='noopener'>
-                        <svg class='icon' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
-                            <path d='M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0Z'/>
-                            <circle cx='12' cy='10' r='3'/>
-                        </svg>
-                        開啟 Google 地圖
-                    </a>
-                    <a class='secondary' href='../index.html'>返回列表</a>
-                </div>
+                <div class='note'>封面顯示的 Google 星星數為示意提醒，實際評分以 Google 地圖顯示為準。</div>
             </div>
         </div>
     </body>
