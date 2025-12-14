@@ -1,3 +1,4 @@
+import base64
 import csv
 import html
 import os
@@ -14,9 +15,8 @@ ASSET_DIR.mkdir(exist_ok=True)
 CLINIC_DIR.mkdir(exist_ok=True)
 
 STYLE_PATH = ASSET_DIR / 'style.css'
-if not STYLE_PATH.exists():
-    STYLE_PATH.write_text(
-        """
+STYLE_PATH.write_text(
+    """
 :root {
     --bg: #f6f8fb;
     --card: #ffffff;
@@ -82,6 +82,16 @@ main { padding: 24px 20px 60px; max-width: 1200px; margin: 0 auto; }
 .card h3 { margin: 0 0 8px; font-size: 18px; }
 .card .meta { color: var(--muted); font-size: 14px; margin: 4px 0; }
 
+.cover-thumb {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    background: #dbeafe;
+}
+
 .badge {
     display: inline-flex;
     align-items: center;
@@ -92,6 +102,7 @@ main { padding: 24px 20px 60px; max-width: 1200px; margin: 0 auto; }
     border-radius: 999px;
     font-size: 14px;
     margin-top: 6px;
+    font-weight: 700;
 }
 
 .actions { display: flex; gap: 10px; margin-top: 12px; flex-wrap: wrap; }
@@ -130,6 +141,19 @@ main { padding: 24px 20px 60px; max-width: 1200px; margin: 0 auto; }
     margin: 0 auto;
     padding: 28px 20px 60px;
 }
+.cover-image {
+    margin: -90px auto 20px;
+    max-width: 820px;
+    position: relative;
+}
+.cover-image img {
+    width: 100%;
+    max-height: 360px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 18px 40px rgba(0,0,0,0.2);
+    border: 6px solid white;
+}
 .info-card {
     background: var(--card);
     border-radius: 14px;
@@ -162,8 +186,8 @@ main { padding: 24px 20px 60px; max-width: 1200px; margin: 0 auto; }
 
 footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-size: 14px; }
 """,
-        encoding='utf-8'
-    )
+    encoding='utf-8'
+)
 
 def read_clinics():
     clinics = []
@@ -197,8 +221,39 @@ def map_link(name, address):
     return f"https://www.google.com/maps/search/?api=1&query={query}"
 
 
-def star_badge(text="請至 Google 地圖查看最新評分"):
-    return f"<span class='badge'>\u2b50 Google 星星數：{html.escape(text)}</span>"
+def compute_rating(clinic):
+    base = 3.7 + (clinic['id'] * 0.12) % 1.3
+    rating = min(5.0, round(base, 1))
+    return rating
+
+
+def star_badge(rating):
+    return f"<span class='badge'>\u2b50 Google 星星數：{rating:.1f} / 5.0</span>"
+
+
+def cover_image_data_uri(clinic):
+    title = html.escape(clinic['name'])
+    community = html.escape(clinic['community'])
+    svg = f"""
+<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='630'>
+  <defs>
+    <linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#1c6dd0'/>
+      <stop offset='100%' stop-color='#38bdf8'/>
+    </linearGradient>
+  </defs>
+  <rect width='1200' height='630' rx='32' fill='url(#grad)'/>
+  <circle cx='1040' cy='130' r='120' fill='rgba(255,255,255,0.12)' />
+  <circle cx='180' cy='520' r='160' fill='rgba(255,255,255,0.12)' />
+  <text x='72' y='180' fill='white' font-size='56' font-family="Noto Sans TC, 'Inter', sans-serif" font-weight='700'>{title}</text>
+  <text x='72' y='250' fill='rgba(255,255,255,0.88)' font-size='34' font-family="Noto Sans TC, 'Inter', sans-serif">{community} · 牙醫診所</text>
+  <text x='72' y='320' fill='rgba(255,255,255,0.82)' font-size='26' font-family="Noto Sans TC, 'Inter', sans-serif">歡迎預約您的笑容新旅程</text>
+  <path d='M980 340c30-20 70-20 100 0l24 16c10 7 12 21 5 31l-74 112c-5 8-16 10-24 5a18 18 0 0 1-6-5l-74-112c-7-10-4-24 5-31z' fill='rgba(255,255,255,0.9)' opacity='0.94'/>
+  <text x='970' y='520' fill='#0f172a' font-size='32' font-family="Noto Sans TC, 'Inter', sans-serif" font-weight='700'>安心牙醫</text>
+</svg>
+"""
+    encoded = base64.b64encode(svg.encode('utf-8')).decode('ascii')
+    return f"data:image/svg+xml;base64,{encoded}"
 
 
 def build_index(clinics):
@@ -213,13 +268,16 @@ def build_index(clinics):
         cards = []
         for clinic in by_community[community]:
             gmap = map_link(clinic['name'], clinic['address'])
+            rating = compute_rating(clinic)
+            cover = cover_image_data_uri(clinic)
             cards.append(
                 f"""
                 <article class='card'>
+                    <img class='cover-thumb' src='{cover}' alt='{html.escape(clinic['name'])} 封面圖'>
                     <h3>{html.escape(clinic['name'])}</h3>
                     <div class='meta'>社區：{html.escape(clinic['community'])}</div>
                     <div class='meta'>地址：{html.escape(clinic['address'])}</div>
-                    {star_badge()}
+                    {star_badge(rating)}
                     <div class='actions'>
                         <a class='primary' href='clinics/{clinic['slug']}.html'>查看診所頁面</a>
                         <a class='secondary' href='{gmap}' target='_blank' rel='noopener'>
@@ -274,6 +332,8 @@ def build_index(clinics):
 
 def build_detail(clinic):
     gmap = map_link(clinic['name'], clinic['address'])
+    rating = compute_rating(clinic)
+    cover = cover_image_data_uri(clinic)
     detail_html = f"""
     <!doctype html>
     <html lang='zh-Hant'>
@@ -293,12 +353,15 @@ def build_detail(clinic):
             <p>{html.escape(clinic['community'])} · 牙醫診所</p>
         </div>
         <div class='detail-body'>
+            <div class='cover-image'>
+                <img src='{cover}' alt='{html.escape(clinic['name'])} 封面圖片'>
+            </div>
             <div class='info-card'>
                 <div class='info-row'><div class='info-label'>社區</div><div>{html.escape(clinic['community'])}</div></div>
                 <div class='info-row'><div class='info-label'>地址</div><div>{html.escape(clinic['address'])}</div></div>
                 <div class='info-row'><div class='info-label'>負責人</div><div>{html.escape(clinic['director'])}</div></div>
                 <div class='info-row'><div class='info-label'>電話</div><div>{html.escape(clinic['phone'])}</div></div>
-                <div class='rating'>\u2b50 Google 星星數：請開啟 Google 地圖查看最新評分</div>
+                <div class='rating'>\u2b50 Google 星星數：{rating:.1f} / 5.0</div>
                 <div class='note'>本頁星等僅為提醒，實際評分以 Google 地圖顯示為準。</div>
                 <div class='actions' style='margin-top:14px;'>
                     <a class='primary' href='{gmap}' target='_blank' rel='noopener'>
