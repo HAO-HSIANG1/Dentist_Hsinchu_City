@@ -16,6 +16,49 @@ body {
     margin: 0;
     color: var(--text);
 }
+.cover {
+    position: relative;
+    background: radial-gradient(circle at 20% 20%, rgba(28, 109, 208, 0.18), transparent 42%),
+        radial-gradient(circle at 80% 10%, rgba(247, 183, 49, 0.25), transparent 38%),
+        linear-gradient(120deg, #0f172a 0%, #1e3a8a 45%, #0f172a 100%);
+    color: #e5edff;
+    padding: 42px 20px 48px;
+    overflow: hidden;
+}
+.cover-inner {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+.cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at 85% 60%, rgba(255,255,255,0.08), transparent 32%);
+}
+.eyebrow {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: #cbd5f5;
+}
+.rating-large {
+    font-size: 32px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+.cover-note {
+    margin: 6px 0 14px;
+    color: #dce6ff;
+}
+.cover-actions { display: flex; gap: 10px; }
+.cover-actions .primary {
+    background: #fbbf24;
+    color: #1f2937;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.14);
+}
 header {
     background: #0f172a;
     color: white;
