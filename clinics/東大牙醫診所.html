@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='zh-Hant'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>東大牙醫診所｜新竹市牙醫診所</title>
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href='https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap' rel='stylesheet'>
+  <style>
+    :root { --primary: #1e3a8a; --accent: #38bdf8; --bg: #f5f7fb; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Noto Sans TC', sans-serif; background: var(--bg); color: #111827; }
+    .hero { padding: 2.5rem 1.25rem 2rem; background: linear-gradient(135deg, var(--primary), var(--accent)); color: #fff; text-align: center; }
+    .hero h1 { margin: 0 0 0.4rem; font-size: clamp(1.8rem, 3vw, 2.5rem); }
+    .hero p { margin: 0; opacity: 0.9; }
+    main { max-width: 900px; margin: -1.5rem auto 2.5rem; padding: 0 1.25rem; }
+    .card { background: #fff; border-radius: 16px; padding: 1.5rem; box-shadow: 0 15px 40px rgba(31,41,55,0.1); margin-bottom: 1rem; }
+    .section-title { margin: 0 0 0.75rem; font-size: 1.1rem; color: #1f2937; }
+    .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0.75rem; }
+    .info { background: #f1f5f9; border-radius: 12px; padding: 0.9rem; }
+    .info span { display: block; font-size: 0.85rem; color: #6b7280; margin-bottom: 0.35rem; }
+    .info strong { font-size: 1.02rem; color: #0f172a; }
+    .actions { display: flex; gap: 0.75rem; flex-wrap: wrap; margin-top: 1rem; }
+    .button { padding: 0.7rem 1.1rem; border-radius: 10px; text-decoration: none; font-weight: 700; color: #fff; background: #2563eb; box-shadow: 0 10px 25px rgba(37, 99, 235, 0.35); transition: transform 0.15s ease, box-shadow 0.15s ease; }
+    .button.secondary { background: #0ea5e9; box-shadow: 0 10px 25px rgba(14,165,233,0.35); }
+    .button:hover { transform: translateY(-2px); }
+    footer { text-align: center; padding: 1.2rem; color: #4b5563; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header class='hero'>
+    <h1>東大牙醫診所</h1>
+    <p>專屬資訊頁面 · 新竹市牙醫診所</p>
+  </header>
+  <main>
+    <section class='card'>
+      <h2 class='section-title'>診所資訊</h2>
+      <div class='info-grid'>
+        <div class='info'><span>負責人</span><strong>李榮泉</strong></div>
+        <div class='info'><span>聯絡電話</span><strong>(03)5312087</strong></div>
+        <div class='info'><span>行政區域代碼</span><strong>10018020</strong></div>
+        <div class='info'><span>縣市代碼</span><strong>10018</strong></div>
+      </div>
+      <div class='info' style='margin-top: 1rem;'>
+        <span>地址</span><strong>東大路２段３６５號</strong>
+      </div>
+      <div class='actions'>
+        <a class='button' href='tel:035312087'>撥打電話</a>
+        <a class='button secondary' href='https://www.google.com/maps/search/東大牙醫診所 東大路２段３６５號 新竹市' target='_blank' rel='noopener'>在 Google 地圖查看</a>
+        <a class='button' style='background:#111827' href='../index.html'>返回列表</a>
+      </div>
+    </section>
+  </main>
+  <footer>資料來源：Dentist_Hsinchu_City.csv</footer>
+</body>
+</html>
