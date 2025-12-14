@@ -214,7 +214,7 @@ def rating_display(clinic):
     base = 3.6
     span = 1.4
     score = min(5.0, base + (clinic['id'] * 0.27) % span)
-    return f"{score:.1f} / 5.0（示意）"
+    return f"{score:.1f}"
 
 
 def star_badge(text="請至 Google 地圖查看最新評分"):
