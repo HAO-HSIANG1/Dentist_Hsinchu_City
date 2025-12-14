@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新竹市牙醫診所地圖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">GitHub Pages · 新竹市</p>
+      <h1>牙醫診所索引</h1>
+      <p class="lede">依社區分類的新竹市牙醫診所導覽，提供地址、電話與 Google 地圖捷徑。點擊任何診所可進入專屬頁面。</p>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="card">
+      <div class="card__header">
+        <div>
+          <p class="eyebrow">瀏覽方式</p>
+          <h2>依社區快速查看診所</h2>
+        </div>
+        <div class="legend">
+          <span class="legend__item">★ 代表可顯示 Google 星等（若已提供）</span>
+        </div>
+      </div>
+      <div id="district-list" class="district-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>資料來源：<code>Dentist_Hsinchu_City.csv</code> · 透過 GitHub Pages 生成</p>
+    <p>若需更新 Google 星等，可於 <code>docs/ratings.json</code> 填入最新評分。</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

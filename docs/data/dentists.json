@@ -1,0 +1,1542 @@
+[
+  {
+    "name": "森美牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "大同里中正路111號1樓、2樓",
+    "director": "李森孟",
+    "phone": "(03)5260203",
+    "slug": "森美牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E7%BE%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%A4%A7%E5%90%8C%E9%87%8C%E4%B8%AD%E6%AD%A3%E8%B7%AF111%E8%99%9F1%E6%A8%93%E3%80%812%E6%A8%93"
+  },
+  {
+    "name": "黃啟祥牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "和福街105號",
+    "director": "黃啟祥",
+    "phone": "(03)5269095",
+    "slug": "黃啟祥牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E5%95%9F%E7%A5%A5%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%92%8C%E7%A6%8F%E8%A1%97105%E8%99%9F"
+  },
+  {
+    "name": "福華牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "育英里四維路54號1樓",
+    "director": "吳英法",
+    "phone": "(03)5262345",
+    "slug": "福華牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%8F%E8%8F%AF%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%82%B2%E8%8B%B1%E9%87%8C%E5%9B%9B%E7%B6%AD%E8%B7%AF54%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "親民牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "竹光路２１號",
+    "director": "黃宏正",
+    "phone": "(03)5427027",
+    "slug": "親民牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A6%AA%E6%B0%91%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%AB%B9%E5%85%89%E8%B7%AF%EF%BC%92%EF%BC%91%E8%99%9F"
+  },
+  {
+    "name": "如意牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "光田里水田街131號",
+    "director": "呂正德",
+    "phone": "(03)5422765",
+    "slug": "如意牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A6%82%E6%84%8F%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E7%94%B0%E9%87%8C%E6%B0%B4%E7%94%B0%E8%A1%97131%E8%99%9F"
+  },
+  {
+    "name": "僑霖牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "水田街１２０號",
+    "director": "潘瑞誠",
+    "phone": "(03)5330060",
+    "slug": "僑霖牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%83%91%E9%9C%96%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%B4%E7%94%B0%E8%A1%97%EF%BC%91%EF%BC%92%EF%BC%90%E8%99%9F"
+  },
+  {
+    "name": "經典牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "海濱里西濱路一段345號1樓",
+    "director": "彭奕炘",
+    "phone": "(03)5366111",
+    "slug": "經典牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B6%93%E5%85%B8%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B5%B7%E6%BF%B1%E9%87%8C%E8%A5%BF%E6%BF%B1%E8%B7%AF%E4%B8%80%E6%AE%B5345%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "博悅牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "水田里演藝路25號B1",
+    "director": "盧中達",
+    "phone": "(03)5424303",
+    "slug": "博悅牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E6%82%85%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%B4%E7%94%B0%E9%87%8C%E6%BC%94%E8%97%9D%E8%B7%AF25%E8%99%9FB1"
+  },
+  {
+    "name": "里昂哈佛國際牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "北門里北大路192號",
+    "director": "沈文彬",
+    "phone": "(03)5256030",
+    "slug": "里昂哈佛國際牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%8C%E6%98%82%E5%93%88%E4%BD%9B%E5%9C%8B%E9%9A%9B%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8C%97%E9%96%80%E9%87%8C%E5%8C%97%E5%A4%A7%E8%B7%AF192%E8%99%9F"
+  },
+  {
+    "name": "彼德潘牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "武陵里武陵路82號1樓",
+    "director": "曾淑萍",
+    "phone": "(03)5408285",
+    "slug": "彼德潘牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BD%BC%E5%BE%B7%E6%BD%98%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%AD%A6%E9%99%B5%E9%87%8C%E6%AD%A6%E9%99%B5%E8%B7%AF82%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "九歌牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "武陵里東大路2段188號",
+    "director": "遲玉堃",
+    "phone": "(03)5341616",
+    "slug": "九歌牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%9D%E6%AD%8C%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%AD%A6%E9%99%B5%E9%87%8C%E6%9D%B1%E5%A4%A7%E8%B7%AF2%E6%AE%B5188%E8%99%9F"
+  },
+  {
+    "name": "銘燦牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "北大路１６0號一樓",
+    "director": "陳銘燦",
+    "phone": "(03)5322345",
+    "slug": "銘燦牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%8A%98%E7%87%A6%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8C%97%E5%A4%A7%E8%B7%AF%EF%BC%91%EF%BC%960%E8%99%9F%E4%B8%80%E6%A8%93"
+  },
+  {
+    "name": "創美牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "客雅里經國路二段543號",
+    "director": "藍鴻文",
+    "phone": "(03)5285335",
+    "slug": "創美牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%89%B5%E7%BE%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%AE%A2%E9%9B%85%E9%87%8C%E7%B6%93%E5%9C%8B%E8%B7%AF%E4%BA%8C%E6%AE%B5543%E8%99%9F"
+  },
+  {
+    "name": "博暘牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "中正路３８６號",
+    "director": "麥正賢",
+    "phone": "(03)5356805",
+    "slug": "博暘牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%8D%9A%E6%9A%98%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E6%AD%A3%E8%B7%AF%EF%BC%93%EF%BC%98%EF%BC%96%E8%99%9F"
+  },
+  {
+    "name": "康橋牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "光華一街10號",
+    "director": "吳令琪",
+    "phone": "(03)5339722",
+    "slug": "康橋牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%B7%E6%A9%8B%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E8%8F%AF%E4%B8%80%E8%A1%9710%E8%99%9F"
+  },
+  {
+    "name": "琉璃光牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "新民里北大路256號1樓",
+    "director": "蘇東隆",
+    "phone": "(03)5222131",
+    "slug": "琉璃光牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%90%89%E7%92%83%E5%85%89%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%B0%E6%B0%91%E9%87%8C%E5%8C%97%E5%A4%A7%E8%B7%AF256%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "安定牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "金竹里金竹路150號",
+    "director": "胡世輝",
+    "phone": "(03)5314307",
+    "slug": "安定牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%AE%9A%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%87%91%E7%AB%B9%E9%87%8C%E9%87%91%E7%AB%B9%E8%B7%AF150%E8%99%9F"
+  },
+  {
+    "name": "光華牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "光華一街60號",
+    "director": "陳淑純",
+    "phone": "(03)5312420",
+    "slug": "光華牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%89%E8%8F%AF%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E8%8F%AF%E4%B8%80%E8%A1%9760%E8%99%9F"
+  },
+  {
+    "name": "永川牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "光華南街54之2號1樓",
+    "director": "陳尚文",
+    "phone": "(03)5326326",
+    "slug": "永川牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E5%B7%9D%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E8%8F%AF%E5%8D%97%E8%A1%9754%E4%B9%8B2%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "謝牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "城北街一三九號",
+    "director": "謝東榮",
+    "phone": "(03)5439395",
+    "slug": "謝牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%AC%9D%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%9F%8E%E5%8C%97%E8%A1%97%E4%B8%80%E4%B8%89%E4%B9%9D%E8%99%9F"
+  },
+  {
+    "name": "全家牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "武陵里武陵路73巷6號1樓",
+    "director": "林語",
+    "phone": "(03)5409188",
+    "slug": "全家牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%A8%E5%AE%B6%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%AD%A6%E9%99%B5%E9%87%8C%E6%AD%A6%E9%99%B5%E8%B7%AF73%E5%B7%B76%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "雅緻生活牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "光田里水田街51號1樓、2樓",
+    "director": "林裕斌",
+    "phone": "(03)5356505",
+    "slug": "雅緻生活牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9B%85%E7%B7%BB%E7%94%9F%E6%B4%BB%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E7%94%B0%E9%87%8C%E6%B0%B4%E7%94%B0%E8%A1%9751%E8%99%9F1%E6%A8%93%E3%80%812%E6%A8%93"
+  },
+  {
+    "name": "馨典牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "北門里民富街39號、41號",
+    "director": "何宜威",
+    "phone": "(03)5251977",
+    "slug": "馨典牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%A8%E5%85%B8%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8C%97%E9%96%80%E9%87%8C%E6%B0%91%E5%AF%8C%E8%A1%9739%E8%99%9F%E3%80%8141%E8%99%9F"
+  },
+  {
+    "name": "陳清龍牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "中山路183號",
+    "director": "陳清龍",
+    "phone": "(03)5220899",
+    "slug": "陳清龍牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%B3%E6%B8%85%E9%BE%8D%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E5%B1%B1%E8%B7%AF183%E8%99%9F"
+  },
+  {
+    "name": "懷仁牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "磐石路３５號",
+    "director": "林懷仁",
+    "phone": "(03)5268510",
+    "slug": "懷仁牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%87%B7%E4%BB%81%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%A3%90%E7%9F%B3%E8%B7%AF%EF%BC%93%EF%BC%95%E8%99%9F"
+  },
+  {
+    "name": "東大牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "東大路２段３６５號",
+    "director": "李榮泉",
+    "phone": "(03)5312087",
+    "slug": "東大牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E5%A4%A7%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9D%B1%E5%A4%A7%E8%B7%AF%EF%BC%92%E6%AE%B5%EF%BC%93%EF%BC%96%EF%BC%95%E8%99%9F"
+  },
+  {
+    "name": "仁德牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "西大路４７３號",
+    "director": "蕭文學",
+    "phone": "(03)5265556",
+    "slug": "仁德牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BB%81%E5%BE%B7%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%A5%BF%E5%A4%A7%E8%B7%AF%EF%BC%94%EF%BC%97%EF%BC%93%E8%99%9F"
+  },
+  {
+    "name": "東濟牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "湳雅街2-5號",
+    "director": "何卓殷",
+    "phone": "(03)5349277",
+    "slug": "東濟牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E6%BF%9F%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B9%B3%E9%9B%85%E8%A1%972-5%E8%99%9F"
+  },
+  {
+    "name": "新捷牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "水田街２１號",
+    "director": "胡正庸",
+    "phone": "(03)5313190",
+    "slug": "新捷牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%8D%B7%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%B4%E7%94%B0%E8%A1%97%EF%BC%92%EF%BC%91%E8%99%9F"
+  },
+  {
+    "name": "王牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "中山路２２號２Ｆ",
+    "director": "王黃政",
+    "phone": "(03)5248922",
+    "slug": "王牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E5%B1%B1%E8%B7%AF%EF%BC%92%EF%BC%92%E8%99%9F%EF%BC%92%EF%BC%A6"
+  },
+  {
+    "name": "冠傑牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "林森路二五三號三樓",
+    "director": "田怡君",
+    "phone": "(03)5238635",
+    "slug": "冠傑牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%86%A0%E5%82%91%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9E%97%E6%A3%AE%E8%B7%AF%E4%BA%8C%E4%BA%94%E4%B8%89%E8%99%9F%E4%B8%89%E6%A8%93"
+  },
+  {
+    "name": "譚牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "武陵路2號",
+    "director": "譚顯崑",
+    "phone": "(03)5333142",
+    "slug": "譚牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%AD%9A%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%AD%A6%E9%99%B5%E8%B7%AF2%E8%99%9F"
+  },
+  {
+    "name": "黃建群牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "中華路三段28號",
+    "director": "黃建群",
+    "phone": "(03)5259939",
+    "slug": "黃建群牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%BB%83%E5%BB%BA%E7%BE%A4%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E8%8F%AF%E8%B7%AF%E4%B8%89%E6%AE%B528%E8%99%9F"
+  },
+  {
+    "name": "潔明牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "西門街６２號",
+    "director": "郭柏麟",
+    "phone": "(03)5250227",
+    "slug": "潔明牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BD%94%E6%98%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%A5%BF%E9%96%80%E8%A1%97%EF%BC%96%EF%BC%92%E8%99%9F"
+  },
+  {
+    "name": "雅群牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "水田街134號1樓",
+    "director": "溫鈺雅",
+    "phone": "(03)5153492",
+    "slug": "雅群牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%9B%85%E7%BE%A4%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%B4%E7%94%B0%E8%A1%97134%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "傑霖牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "西大路634號",
+    "director": "許文傑",
+    "phone": "(03)5265995",
+    "slug": "傑霖牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%82%91%E9%9C%96%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%A5%BF%E5%A4%A7%E8%B7%AF634%E8%99%9F"
+  },
+  {
+    "name": "榮浩牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "武陵路一五三號",
+    "director": "鄭榮浩",
+    "phone": "(03)5335838",
+    "slug": "榮浩牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A6%AE%E6%B5%A9%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%AD%A6%E9%99%B5%E8%B7%AF%E4%B8%80%E4%BA%94%E4%B8%89%E8%99%9F"
+  },
+  {
+    "name": "陽明牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "民富街２７號",
+    "director": "吳學孟",
+    "phone": "(03)5282386",
+    "slug": "陽明牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%BD%E6%98%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%91%E5%AF%8C%E8%A1%97%EF%BC%92%EF%BC%97%E8%99%9F"
+  },
+  {
+    "name": "翰霖牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "西大路710號",
+    "director": "郭珊珊",
+    "phone": "(03)5356930",
+    "slug": "翰霖牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BF%B0%E9%9C%96%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%A5%BF%E5%A4%A7%E8%B7%AF710%E8%99%9F"
+  },
+  {
+    "name": "游牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "四維路４5號",
+    "director": "游振宗",
+    "phone": "(03)5238158",
+    "slug": "游牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B8%B8%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%9B%9B%E7%B6%AD%E8%B7%AF%EF%BC%945%E8%99%9F"
+  },
+  {
+    "name": "江牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "中山路２５３號",
+    "director": "江淑媛",
+    "phone": "(03)5223450",
+    "slug": "江牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B1%9F%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E5%B1%B1%E8%B7%AF%EF%BC%92%EF%BC%95%EF%BC%93%E8%99%9F"
+  },
+  {
+    "name": "懷恩牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "潛園里北大路325號",
+    "director": "張誌珊",
+    "phone": "(03)5261357",
+    "slug": "懷恩牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%87%B7%E6%81%A9%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%BD%9B%E5%9C%92%E9%87%8C%E5%8C%97%E5%A4%A7%E8%B7%AF325%E8%99%9F"
+  },
+  {
+    "name": "吳慧琳牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "經國路一段３２９號１樓",
+    "director": "吳慧琳",
+    "phone": "(03)5319264",
+    "slug": "吳慧琳牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%B3%E6%85%A7%E7%90%B3%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%B6%93%E5%9C%8B%E8%B7%AF%E4%B8%80%E6%AE%B5%EF%BC%93%EF%BC%92%EF%BC%99%E8%99%9F%EF%BC%91%E6%A8%93"
+  },
+  {
+    "name": "東寧牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "大同里中央路89、91號第一層",
+    "director": "曾敬庭",
+    "phone": "(03)5260768",
+    "slug": "東寧牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E5%AF%A7%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%A4%A7%E5%90%8C%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF89%E3%80%8191%E8%99%9F%E7%AC%AC%E4%B8%80%E5%B1%A4"
+  },
+  {
+    "name": "許牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "中山路２１１號",
+    "director": "許再添",
+    "phone": "(03)5241661",
+    "slug": "許牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A8%B1%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E5%B1%B1%E8%B7%AF%EF%BC%92%EF%BC%91%EF%BC%91%E8%99%9F"
+  },
+  {
+    "name": "陳牙醫診所",
+    "districtCode": "10018020",
+    "district": "北區",
+    "address": "北大路２３９巷１號",
+    "director": "陳奕炘",
+    "phone": "(03)5234528",
+    "slug": "陳牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%B3%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8C%97%E5%A4%A7%E8%B7%AF%EF%BC%92%EF%BC%93%EF%BC%99%E5%B7%B7%EF%BC%91%E8%99%9F"
+  },
+  {
+    "name": "朝春牙醫診所",
+    "districtCode": "10018030",
+    "district": "香山區",
+    "address": "內湖路49號",
+    "director": "葉育敏",
+    "phone": "(03)5377103",
+    "slug": "朝春牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%9D%E6%98%A5%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%A7%E6%B9%96%E8%B7%AF49%E8%99%9F"
+  },
+  {
+    "name": "深潭牙醫診所",
+    "districtCode": "10018030",
+    "district": "香山區",
+    "address": "牛埔路４４０號",
+    "director": "吳永尚",
+    "phone": "(03)5388420",
+    "slug": "深潭牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B7%B1%E6%BD%AD%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%89%9B%E5%9F%94%E8%B7%AF%EF%BC%94%EF%BC%94%EF%BC%90%E8%99%9F"
+  },
+  {
+    "name": "永志牙醫診所",
+    "districtCode": "10018030",
+    "district": "香山區",
+    "address": "牛埔路４３７號",
+    "director": "吳永志",
+    "phone": "(03)5387553",
+    "slug": "永志牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E5%BF%97%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%89%9B%E5%9F%94%E8%B7%AF%EF%BC%94%EF%BC%93%EF%BC%97%E8%99%9F"
+  },
+  {
+    "name": "香杉牙醫診所",
+    "districtCode": "10018030",
+    "district": "香山區",
+    "address": "香山里大庄路130號1-2樓及132號1-2樓",
+    "director": "秦偉庭",
+    "phone": "(03)5397268",
+    "slug": "香杉牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%A6%99%E6%9D%89%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%A6%99%E5%B1%B1%E9%87%8C%E5%A4%A7%E5%BA%84%E8%B7%AF130%E8%99%9F1-2%E6%A8%93%E5%8F%8A132%E8%99%9F1-2%E6%A8%93"
+  },
+  {
+    "name": "宏揚牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "東光路200號1樓",
+    "director": "周豐智",
+    "phone": "(03)5710189",
+    "slug": "宏揚牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%8F%E6%8F%9A%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9D%B1%E5%85%89%E8%B7%AF200%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "誠品牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "南大里西大路91號1樓",
+    "director": "陳姮希",
+    "phone": "(03)5618686",
+    "slug": "誠品牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%AA%A0%E5%93%81%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%97%E5%A4%A7%E9%87%8C%E8%A5%BF%E5%A4%A7%E8%B7%AF91%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "晨光牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "公園里公園路286號1樓",
+    "director": "楊國暐",
+    "phone": "(03)5610905",
+    "slug": "晨光牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%A8%E5%85%89%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%AC%E5%9C%92%E9%87%8C%E5%85%AC%E5%9C%92%E8%B7%AF286%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "寓光牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "新莊里關新北路155號",
+    "director": "徐孟駒",
+    "phone": "(03)6667756",
+    "slug": "寓光牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%93%E5%85%89%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%B0%E8%8E%8A%E9%87%8C%E9%97%9C%E6%96%B0%E5%8C%97%E8%B7%AF155%E8%99%9F"
+  },
+  {
+    "name": "全美牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "振興里南大路586號",
+    "director": "何政璋",
+    "phone": "(03)5620119",
+    "slug": "全美牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%A8%E7%BE%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%8C%AF%E8%88%88%E9%87%8C%E5%8D%97%E5%A4%A7%E8%B7%AF586%E8%99%9F"
+  },
+  {
+    "name": "心勤美學牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "埔頂里埔頂二路99號1-2樓",
+    "director": "林士桓",
+    "phone": "(03)6669898",
+    "slug": "心勤美學牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BF%83%E5%8B%A4%E7%BE%8E%E5%AD%B8%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%9F%94%E9%A0%82%E9%87%8C%E5%9F%94%E9%A0%82%E4%BA%8C%E8%B7%AF99%E8%99%9F1-2%E6%A8%93"
+  },
+  {
+    "name": "恩澄牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "關新里光復路一段362-9號1-2樓",
+    "director": "吳兆鴻",
+    "phone": "(03)6686764",
+    "slug": "恩澄牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%81%A9%E6%BE%84%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%97%9C%E6%96%B0%E9%87%8C%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5362-9%E8%99%9F1-2%E6%A8%93"
+  },
+  {
+    "name": "怡櫟牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "東新路1號1樓",
+    "director": "陳長佑",
+    "phone": "(03)5750869",
+    "slug": "怡櫟牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%80%A1%E6%AB%9F%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9D%B1%E6%96%B0%E8%B7%AF1%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "明悅精品牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "中央路214號1-2樓",
+    "director": "李湘晴",
+    "phone": "(03)5331586",
+    "slug": "明悅精品牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E6%82%85%E7%B2%BE%E5%93%81%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E5%A4%AE%E8%B7%AF214%E8%99%9F1-2%E6%A8%93"
+  },
+  {
+    "name": "朱育正牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "復中里中央路219號1-2樓",
+    "director": "朱育正",
+    "phone": "(03)5436999",
+    "slug": "朱育正牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9C%B1%E8%82%B2%E6%AD%A3%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%BE%A9%E4%B8%AD%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF219%E8%99%9F1-2%E6%A8%93"
+  },
+  {
+    "name": "倨誠牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "三民里民族路117號1-2樓",
+    "director": "韓伊淳",
+    "phone": "(03)5358866",
+    "slug": "倨誠牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%80%A8%E8%AA%A0%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%89%E6%B0%91%E9%87%8C%E6%B0%91%E6%97%8F%E8%B7%AF117%E8%99%9F1-2%E6%A8%93"
+  },
+  {
+    "name": "皓齊牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "新興里南大路397號1-2樓",
+    "director": "王廸崴",
+    "phone": "(03)5621009",
+    "slug": "皓齊牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9A%93%E9%BD%8A%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%B0%E8%88%88%E9%87%8C%E5%8D%97%E5%A4%A7%E8%B7%AF397%E8%99%9F1-2%E6%A8%93"
+  },
+  {
+    "name": "和毅牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "南市里林森路149號1、2樓",
+    "director": "吳和泰",
+    "phone": "(03)5228866",
+    "slug": "和毅牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%92%8C%E6%AF%85%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%97%E5%B8%82%E9%87%8C%E6%9E%97%E6%A3%AE%E8%B7%AF149%E8%99%9F1%E3%80%812%E6%A8%93"
+  },
+  {
+    "name": "園區牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "仙水里光復路一段307號1樓",
+    "director": "鄭宇芯",
+    "phone": "(03)5783712",
+    "slug": "園區牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%92%E5%8D%80%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%BB%99%E6%B0%B4%E9%87%8C%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5307%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "晶華牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "科園里科學園區力行六路8號3樓317C室",
+    "director": "辜柏誠",
+    "phone": "(03)5779577",
+    "slug": "晶華牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%B6%E8%8F%AF%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%A7%91%E5%9C%92%E9%87%8C%E7%A7%91%E5%AD%B8%E5%9C%92%E5%8D%80%E5%8A%9B%E8%A1%8C%E5%85%AD%E8%B7%AF8%E8%99%9F3%E6%A8%93317C%E5%AE%A4"
+  },
+  {
+    "name": "品御牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "東園里八德路162號1樓",
+    "director": "李俊瑩",
+    "phone": "(03)5725557",
+    "slug": "品御牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%93%81%E5%BE%A1%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9D%B1%E5%9C%92%E9%87%8C%E5%85%AB%E5%BE%B7%E8%B7%AF162%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "京典牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "金山里金山十一街19號1樓",
+    "director": "吳易霖",
+    "phone": "(03)6663888",
+    "slug": "京典牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BA%AC%E5%85%B8%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%87%91%E5%B1%B1%E9%87%8C%E9%87%91%E5%B1%B1%E5%8D%81%E4%B8%80%E8%A1%9719%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "日光翡麗牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "關新里關新路65號",
+    "director": "馬瑞宏",
+    "phone": "(03)5678699",
+    "slug": "日光翡麗牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E5%85%89%E7%BF%A1%E9%BA%97%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%97%9C%E6%96%B0%E9%87%8C%E9%97%9C%E6%96%B0%E8%B7%AF65%E8%99%9F"
+  },
+  {
+    "name": "紐約牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "文華里民生路309號2F",
+    "director": "許祥威",
+    "phone": "(03)5152206",
+    "slug": "紐約牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B4%90%E7%B4%84%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%87%E8%8F%AF%E9%87%8C%E6%B0%91%E7%94%9F%E8%B7%AF309%E8%99%9F2F"
+  },
+  {
+    "name": "寶傑美學牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "福德里中華路二段702號1～2樓",
+    "director": "李寶傑",
+    "phone": "(03)5280377",
+    "slug": "寶傑美學牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AF%B6%E5%82%91%E7%BE%8E%E5%AD%B8%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%A6%8F%E5%BE%B7%E9%87%8C%E4%B8%AD%E8%8F%AF%E8%B7%AF%E4%BA%8C%E6%AE%B5702%E8%99%9F1%EF%BD%9E2%E6%A8%93"
+  },
+  {
+    "name": "森源牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "綠水里光復路二段261號1、2樓",
+    "director": "林森田",
+    "phone": "(03)5728088",
+    "slug": "森源牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E6%BA%90%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%B6%A0%E6%B0%B4%E9%87%8C%E5%85%89%E5%BE%A9%E8%B7%AF%E4%BA%8C%E6%AE%B5261%E8%99%9F1%E3%80%812%E6%A8%93"
+  },
+  {
+    "name": "意康牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "仙水里光復路一段331-2號",
+    "director": "王啟得",
+    "phone": "(03)6663232",
+    "slug": "意康牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%84%8F%E5%BA%B7%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%BB%99%E6%B0%B4%E9%87%8C%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5331-2%E8%99%9F"
+  },
+  {
+    "name": "金牛頓牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "豐功里建功一路176號、178號",
+    "director": "蘇筌瑋",
+    "phone": "(03)5733896",
+    "slug": "金牛頓牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E7%89%9B%E9%A0%93%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%B1%90%E5%8A%9F%E9%87%8C%E5%BB%BA%E5%8A%9F%E4%B8%80%E8%B7%AF176%E8%99%9F%E3%80%81178%E8%99%9F"
+  },
+  {
+    "name": "關新牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "新莊里關新東路356號",
+    "director": "卓聯宇",
+    "phone": "(03)5770607",
+    "slug": "關新牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%97%9C%E6%96%B0%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%B0%E8%8E%8A%E9%87%8C%E9%97%9C%E6%96%B0%E6%9D%B1%E8%B7%AF356%E8%99%9F"
+  },
+  {
+    "name": "東門牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "榮光里東門街67號1樓",
+    "director": "劉騰文",
+    "phone": "(03)5281250",
+    "slug": "東門牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E9%96%80%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%A6%AE%E5%85%89%E9%87%8C%E6%9D%B1%E9%96%80%E8%A1%9767%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "筑心筑美牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "關新東路280號1-2樓",
+    "director": "莊涵芝",
+    "phone": "(03)5782168",
+    "slug": "筑心筑美牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AD%91%E5%BF%83%E7%AD%91%E7%BE%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%97%9C%E6%96%B0%E6%9D%B1%E8%B7%AF280%E8%99%9F1-2%E6%A8%93"
+  },
+  {
+    "name": "嶺先牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "關新里關新路225號3樓",
+    "director": "張倩瑜",
+    "phone": "(03)5679312",
+    "slug": "嶺先牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B6%BA%E5%85%88%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%97%9C%E6%96%B0%E9%87%8C%E9%97%9C%E6%96%B0%E8%B7%AF225%E8%99%9F3%E6%A8%93"
+  },
+  {
+    "name": "天晴牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "龍山里慈濟路206號1樓",
+    "director": "王勳甲",
+    "phone": "(03)5775206",
+    "slug": "天晴牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E6%99%B4%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%BE%8D%E5%B1%B1%E9%87%8C%E6%85%88%E6%BF%9F%E8%B7%AF206%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "杏明牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "仙宮里高翠路101號2樓",
+    "director": "陳安絹",
+    "phone": "(03)6668918",
+    "slug": "杏明牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9D%8F%E6%98%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%BB%99%E5%AE%AE%E9%87%8C%E9%AB%98%E7%BF%A0%E8%B7%AF101%E8%99%9F2%E6%A8%93"
+  },
+  {
+    "name": "銘仁牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "林森路6號1樓及2樓",
+    "director": "熊士強",
+    "phone": "(03)5255238",
+    "slug": "銘仁牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%8A%98%E4%BB%81%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9E%97%E6%A3%AE%E8%B7%AF6%E8%99%9F1%E6%A8%93%E5%8F%8A2%E6%A8%93"
+  },
+  {
+    "name": "永霖牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "南門街16號",
+    "director": "陳瑞陽",
+    "phone": "(03)5246303",
+    "slug": "永霖牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B0%B8%E9%9C%96%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%97%E9%96%80%E8%A1%9716%E8%99%9F"
+  },
+  {
+    "name": "品味牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "金山街138號1-3樓",
+    "director": "郭彥君",
+    "phone": "(03)6662299",
+    "slug": "品味牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%93%81%E5%91%B3%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%87%91%E5%B1%B1%E8%A1%97138%E8%99%9F1-3%E6%A8%93"
+  },
+  {
+    "name": "小城堡牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "復興里經國路一段379巷36號1樓",
+    "director": "吳佩蓁",
+    "phone": "(03)5351855",
+    "slug": "小城堡牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E5%9F%8E%E5%A0%A1%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%BE%A9%E8%88%88%E9%87%8C%E7%B6%93%E5%9C%8B%E8%B7%AF%E4%B8%80%E6%AE%B5379%E5%B7%B736%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "立安牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "育賢里東門街34巷9號1樓",
+    "director": "許璧娟",
+    "phone": "(03)5333025",
+    "slug": "立安牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%AB%8B%E5%AE%89%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%82%B2%E8%B3%A2%E9%87%8C%E6%9D%B1%E9%96%80%E8%A1%9734%E5%B7%B79%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "森釉牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "關新東路276號1-2樓",
+    "director": "林佳勳",
+    "phone": "(03)5797858",
+    "slug": "森釉牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A3%AE%E9%87%89%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%97%9C%E6%96%B0%E6%9D%B1%E8%B7%AF276%E8%99%9F1-2%E6%A8%93"
+  },
+  {
+    "name": "詠美牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "東園里鐵道路一段18號1樓",
+    "director": "林東慶",
+    "phone": "(03)5351153",
+    "slug": "詠美牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A9%A0%E7%BE%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9D%B1%E5%9C%92%E9%87%8C%E9%90%B5%E9%81%93%E8%B7%AF%E4%B8%80%E6%AE%B518%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "峰皇牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "榮光里東門街29、31號",
+    "director": "陳文傑",
+    "phone": "(03)5243666",
+    "slug": "峰皇牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B3%B0%E7%9A%87%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%A6%AE%E5%85%89%E9%87%8C%E6%9D%B1%E9%96%80%E8%A1%9729%E3%80%8131%E8%99%9F"
+  },
+  {
+    "name": "育賢牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光鎮里南大路830號",
+    "director": "廖雅惠",
+    "phone": "(03)5621717",
+    "slug": "育賢牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%82%B2%E8%B3%A2%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E9%8E%AE%E9%87%8C%E5%8D%97%E5%A4%A7%E8%B7%AF830%E8%99%9F"
+  },
+  {
+    "name": "君悅牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "科園里光復路一段563號1、2樓",
+    "director": "陳俊利",
+    "phone": "(03)5787088",
+    "slug": "君悅牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%90%9B%E6%82%85%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%A7%91%E5%9C%92%E9%87%8C%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5563%E8%99%9F1%E3%80%812%E6%A8%93"
+  },
+  {
+    "name": "佳新牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "新莊街八十一號",
+    "director": "黃堯堂",
+    "phone": "(03)5633346",
+    "slug": "佳新牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BD%B3%E6%96%B0%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%B0%E8%8E%8A%E8%A1%97%E5%85%AB%E5%8D%81%E4%B8%80%E8%99%9F"
+  },
+  {
+    "name": "美日牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "東門街二十三、二十五號一、二、三樓",
+    "director": "羅秋美",
+    "phone": "(03)5232502",
+    "slug": "美日牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%BE%8E%E6%97%A5%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9D%B1%E9%96%80%E8%A1%97%E4%BA%8C%E5%8D%81%E4%B8%89%E3%80%81%E4%BA%8C%E5%8D%81%E4%BA%94%E8%99%9F%E4%B8%80%E3%80%81%E4%BA%8C%E3%80%81%E4%B8%89%E6%A8%93"
+  },
+  {
+    "name": "德陞牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路一段五○七號一樓",
+    "director": "王昭凱",
+    "phone": "(03)5636611",
+    "slug": "德陞牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%B7%E9%99%9E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5%E4%BA%94%E2%97%8B%E4%B8%83%E8%99%9F%E4%B8%80%E6%A8%93"
+  },
+  {
+    "name": "達觀牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "大同路７－１號二樓",
+    "director": "郭尚倫",
+    "phone": "(03)5265589",
+    "slug": "達觀牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%81%94%E8%A7%80%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%A4%A7%E5%90%8C%E8%B7%AF%EF%BC%97%EF%BC%8D%EF%BC%91%E8%99%9F%E4%BA%8C%E6%A8%93"
+  },
+  {
+    "name": "新美學牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "新莊里關新路19巷5號",
+    "director": "周郁玫",
+    "phone": "(03)6668610",
+    "slug": "新美學牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E7%BE%8E%E5%AD%B8%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%B0%E8%8E%8A%E9%87%8C%E9%97%9C%E6%96%B0%E8%B7%AF19%E5%B7%B75%E8%99%9F"
+  },
+  {
+    "name": "惠群牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "公園里南大路109號",
+    "director": "溫飛翊",
+    "phone": "(03)5250037",
+    "slug": "惠群牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%83%A0%E7%BE%A4%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%AC%E5%9C%92%E9%87%8C%E5%8D%97%E5%A4%A7%E8%B7%AF109%E8%99%9F"
+  },
+  {
+    "name": "尖端牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路二段２７２號二樓",
+    "director": "古國鉅",
+    "phone": "(03)5714800",
+    "slug": "尖端牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%96%E7%AB%AF%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%BA%8C%E6%AE%B5%EF%BC%92%EF%BC%97%EF%BC%92%E8%99%9F%E4%BA%8C%E6%A8%93"
+  },
+  {
+    "name": "崇善牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "復中里３鄰錦華街１４號２Ｆ",
+    "director": "郭振興",
+    "phone": "(03)5349447",
+    "slug": "崇善牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B4%87%E5%96%84%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%BE%A9%E4%B8%AD%E9%87%8C%EF%BC%93%E9%84%B0%E9%8C%A6%E8%8F%AF%E8%A1%97%EF%BC%91%EF%BC%94%E8%99%9F%EF%BC%92%EF%BC%A6"
+  },
+  {
+    "name": "榮信牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路一段４７２號三樓之八",
+    "director": "劉信熹",
+    "phone": "(03)5781122",
+    "slug": "榮信牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%A6%AE%E4%BF%A1%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5%EF%BC%94%EF%BC%97%EF%BC%92%E8%99%9F%E4%B8%89%E6%A8%93%E4%B9%8B%E5%85%AB"
+  },
+  {
+    "name": "大新牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路二段３８３號",
+    "director": "楊演杉",
+    "phone": "(03)5714371",
+    "slug": "大新牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%96%B0%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%BA%8C%E6%AE%B5%EF%BC%93%EF%BC%98%EF%BC%93%E8%99%9F"
+  },
+  {
+    "name": "安徒生牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "武功里建功一路87號",
+    "director": "徐玉玲",
+    "phone": "(03)5749385",
+    "slug": "安徒生牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%BE%92%E7%94%9F%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%AD%A6%E5%8A%9F%E9%87%8C%E5%BB%BA%E5%8A%9F%E4%B8%80%E8%B7%AF87%E8%99%9F"
+  },
+  {
+    "name": "安心牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "復中里民生路246號1樓",
+    "director": "簡英健",
+    "phone": "(03)5312378",
+    "slug": "安心牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%89%E5%BF%83%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%BE%A9%E4%B8%AD%E9%87%8C%E6%B0%91%E7%94%9F%E8%B7%AF246%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "尊爵時尚牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "豐功里建中路128號1樓及130號1樓",
+    "director": "李鎮宇",
+    "phone": "(03)5733699",
+    "slug": "尊爵時尚牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8A%E7%88%B5%E6%99%82%E5%B0%9A%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%B1%90%E5%8A%9F%E9%87%8C%E5%BB%BA%E4%B8%AD%E8%B7%AF128%E8%99%9F1%E6%A8%93%E5%8F%8A130%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "清新牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "南門里中華路二段501號1樓",
+    "director": "呂玄評",
+    "phone": "(03)5260672",
+    "slug": "清新牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B8%85%E6%96%B0%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%97%E9%96%80%E9%87%8C%E4%B8%AD%E8%8F%AF%E8%B7%AF%E4%BA%8C%E6%AE%B5501%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "禾一牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "南大里西大路17號、19號1、2樓",
+    "director": "潘姿延",
+    "phone": "(03)5611691",
+    "slug": "禾一牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%BE%E4%B8%80%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%97%E5%A4%A7%E9%87%8C%E8%A5%BF%E5%A4%A7%E8%B7%AF17%E8%99%9F%E3%80%8119%E8%99%9F1%E3%80%812%E6%A8%93"
+  },
+  {
+    "name": "明威牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "新莊里關新路19巷31號",
+    "director": "陳世明",
+    "phone": "(03)6667907",
+    "slug": "明威牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E5%A8%81%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%B0%E8%8E%8A%E9%87%8C%E9%97%9C%E6%96%B0%E8%B7%AF19%E5%B7%B731%E8%99%9F"
+  },
+  {
+    "name": "普洛牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "軍功里光復路二段430號1樓",
+    "director": "張雪芬",
+    "phone": "(03)5751992",
+    "slug": "普洛牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%AE%E6%B4%9B%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%BB%8D%E5%8A%9F%E9%87%8C%E5%85%89%E5%BE%A9%E8%B7%AF%E4%BA%8C%E6%AE%B5430%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "國喬牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路二段一七六號",
+    "director": "楊欣達",
+    "phone": "(03)5714520",
+    "slug": "國喬牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%9C%8B%E5%96%AC%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%BA%8C%E6%AE%B5%E4%B8%80%E4%B8%83%E5%85%AD%E8%99%9F"
+  },
+  {
+    "name": "敏華牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "新莊里關新路27號3樓之2及3樓之3",
+    "director": "王敏權",
+    "phone": "(03)6686151",
+    "slug": "敏華牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%95%8F%E8%8F%AF%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%B0%E8%8E%8A%E9%87%8C%E9%97%9C%E6%96%B0%E8%B7%AF27%E8%99%9F3%E6%A8%93%E4%B9%8B2%E5%8F%8A3%E6%A8%93%E4%B9%8B3"
+  },
+  {
+    "name": "敦品牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "三民里民權路101號1樓",
+    "director": "宋錦明",
+    "phone": "(03)5438382",
+    "slug": "敦品牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%95%A6%E5%93%81%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%89%E6%B0%91%E9%87%8C%E6%B0%91%E6%AC%8A%E8%B7%AF101%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "皇家牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "中正里中正路93號1樓",
+    "director": "陳志賢",
+    "phone": "(03)5223811",
+    "slug": "皇家牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%9A%87%E5%AE%B6%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E6%AD%A3%E9%87%8C%E4%B8%AD%E6%AD%A3%E8%B7%AF93%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "簡牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "民生路２００號",
+    "director": "簡英俊",
+    "phone": "(03)5320790",
+    "slug": "簡牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B0%A1%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%91%E7%94%9F%E8%B7%AF%EF%BC%92%EF%BC%90%EF%BC%90%E8%99%9F"
+  },
+  {
+    "name": "上慈牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "民族路84-2號",
+    "director": "劉惠娟",
+    "phone": "(03)5355655",
+    "slug": "上慈牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E6%85%88%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%91%E6%97%8F%E8%B7%AF84-2%E8%99%9F"
+  },
+  {
+    "name": "孫牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "西大路３７６號",
+    "director": "孫文郁",
+    "phone": "(03)5241665",
+    "slug": "孫牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AD%AB%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%A5%BF%E5%A4%A7%E8%B7%AF%EF%BC%93%EF%BC%97%EF%BC%96%E8%99%9F"
+  },
+  {
+    "name": "宏昌牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "中央路１４４號１樓",
+    "director": "許瑞宏",
+    "phone": "(03)5324237",
+    "slug": "宏昌牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%8F%E6%98%8C%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E5%A4%AE%E8%B7%AF%EF%BC%91%EF%BC%94%EF%BC%94%E8%99%9F%EF%BC%91%E6%A8%93"
+  },
+  {
+    "name": "蔡牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "民權路５９號",
+    "director": "蔡國明",
+    "phone": "(03)5323636",
+    "slug": "蔡牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%94%A1%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%91%E6%AC%8A%E8%B7%AF%EF%BC%95%EF%BC%99%E8%99%9F"
+  },
+  {
+    "name": "大學牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路二段４３４號",
+    "director": "施幸美",
+    "phone": "(03)5720909",
+    "slug": "大學牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E5%AD%B8%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%BA%8C%E6%AE%B5%EF%BC%94%EF%BC%93%EF%BC%94%E8%99%9F"
+  },
+  {
+    "name": "康齡牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路二段222號",
+    "director": "高翔鵬",
+    "phone": "(03)5753033",
+    "slug": "康齡牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BA%B7%E9%BD%A1%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%BA%8C%E6%AE%B5222%E8%99%9F"
+  },
+  {
+    "name": "耕心牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路二段380號二樓",
+    "director": "羅明灃",
+    "phone": "(03)5727139",
+    "slug": "耕心牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%80%95%E5%BF%83%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%BA%8C%E6%AE%B5380%E8%99%9F%E4%BA%8C%E6%A8%93"
+  },
+  {
+    "name": "貝多芬牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "建功一路59巷6號",
+    "director": "張慧男",
+    "phone": "(03)5749567",
+    "slug": "貝多芬牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%B2%9D%E5%A4%9A%E8%8A%AC%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%BB%BA%E5%8A%9F%E4%B8%80%E8%B7%AF59%E5%B7%B76%E8%99%9F"
+  },
+  {
+    "name": "關東橋仁美牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "西大路165號1F",
+    "director": "施性平",
+    "phone": "(03)5615320",
+    "slug": "關東橋仁美牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%97%9C%E6%9D%B1%E6%A9%8B%E4%BB%81%E7%BE%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E8%A5%BF%E5%A4%A7%E8%B7%AF165%E8%99%9F1F"
+  },
+  {
+    "name": "誼安牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "復中里中央路178號1樓",
+    "director": "薛文崚",
+    "phone": "(03)5357700",
+    "slug": "誼安牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%AA%BC%E5%AE%89%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%BE%A9%E4%B8%AD%E9%87%8C%E4%B8%AD%E5%A4%AE%E8%B7%AF178%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "品傑牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "東南街１５０號",
+    "director": "陳明達",
+    "phone": "(03)5619665",
+    "slug": "品傑牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%93%81%E5%82%91%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9D%B1%E5%8D%97%E8%A1%97%EF%BC%91%EF%BC%95%EF%BC%90%E8%99%9F"
+  },
+  {
+    "name": "王存禎牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "食品路142號1樓",
+    "director": "王存禎",
+    "phone": "(03)5615581",
+    "slug": "王存禎牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E5%AD%98%E7%A6%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%A3%9F%E5%93%81%E8%B7%AF142%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "陳慧貞牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "建新路36號",
+    "director": "陳慧貞",
+    "phone": "(03)5723629",
+    "slug": "陳慧貞牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%B3%E6%85%A7%E8%B2%9E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%BB%BA%E6%96%B0%E8%B7%AF36%E8%99%9F"
+  },
+  {
+    "name": "鄭牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "南大路３４３號",
+    "director": "鄭志賢",
+    "phone": "(03)5265456",
+    "slug": "鄭牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%84%AD%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%97%E5%A4%A7%E8%B7%AF%EF%BC%93%EF%BC%94%EF%BC%93%E8%99%9F"
+  },
+  {
+    "name": "米羅牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路一段432號",
+    "director": "曾朝國",
+    "phone": "(03)5642009",
+    "slug": "米羅牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B1%B3%E7%BE%85%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5432%E8%99%9F"
+  },
+  {
+    "name": "宏大牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "食品路５４５號",
+    "director": "羅文杰",
+    "phone": "(03)5613537",
+    "slug": "宏大牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%AE%8F%E5%A4%A7%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%A3%9F%E5%93%81%E8%B7%AF%EF%BC%95%EF%BC%94%EF%BC%95%E8%99%9F"
+  },
+  {
+    "name": "智信牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "新莊街75號77號1樓",
+    "director": "蔣智信",
+    "phone": "(03)5781997",
+    "slug": "智信牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%99%BA%E4%BF%A1%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%B0%E8%8E%8A%E8%A1%9775%E8%99%9F77%E8%99%9F1%E6%A8%93"
+  },
+  {
+    "name": "秀雅牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "金山里金山北二街61號",
+    "director": "曾還慧",
+    "phone": "(03)5780580",
+    "slug": "秀雅牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A7%80%E9%9B%85%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%87%91%E5%B1%B1%E9%87%8C%E9%87%91%E5%B1%B1%E5%8C%97%E4%BA%8C%E8%A1%9761%E8%99%9F"
+  },
+  {
+    "name": "微笑牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "民族路一五八之一號一樓",
+    "director": "陳恩翊",
+    "phone": "(03)5152408",
+    "slug": "微笑牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%BE%AE%E7%AC%91%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%91%E6%97%8F%E8%B7%AF%E4%B8%80%E4%BA%94%E5%85%AB%E4%B9%8B%E4%B8%80%E8%99%9F%E4%B8%80%E6%A8%93"
+  },
+  {
+    "name": "王子牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "文華里田美三街20號",
+    "director": "蕭雅尹",
+    "phone": "(03)5337890",
+    "slug": "王子牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8E%8B%E5%AD%90%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%96%87%E8%8F%AF%E9%87%8C%E7%94%B0%E7%BE%8E%E4%B8%89%E8%A1%9720%E8%99%9F"
+  },
+  {
+    "name": "上上牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "中山路４００號",
+    "director": "曾堃益",
+    "phone": "(03)5251383",
+    "slug": "上上牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%8A%E4%B8%8A%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E5%B1%B1%E8%B7%AF%EF%BC%94%EF%BC%90%EF%BC%90%E8%99%9F"
+  },
+  {
+    "name": "展新牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "勝利路一七五號二樓",
+    "director": "黃昱霖",
+    "phone": "(03)5246312",
+    "slug": "展新牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B1%95%E6%96%B0%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8B%9D%E5%88%A9%E8%B7%AF%E4%B8%80%E4%B8%83%E4%BA%94%E8%99%9F%E4%BA%8C%E6%A8%93"
+  },
+  {
+    "name": "先進牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "食品路417號",
+    "director": "蘇大海",
+    "phone": "(03)5228999",
+    "slug": "先進牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%88%E9%80%B2%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%A3%9F%E5%93%81%E8%B7%AF417%E8%99%9F"
+  },
+  {
+    "name": "金明牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "食品路１０３巷２號１Ｆ",
+    "director": "汪金豪",
+    "phone": "(03)5711899",
+    "slug": "金明牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%87%91%E6%98%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%A3%9F%E5%93%81%E8%B7%AF%EF%BC%91%EF%BC%90%EF%BC%93%E5%B7%B7%EF%BC%92%E8%99%9F%EF%BC%91%EF%BC%A6"
+  },
+  {
+    "name": "信愛牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "北大路29之1號2樓",
+    "director": "胡哲雄",
+    "phone": "(03)5313760",
+    "slug": "信愛牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%BF%A1%E6%84%9B%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8C%97%E5%A4%A7%E8%B7%AF29%E4%B9%8B1%E8%99%9F2%E6%A8%93"
+  },
+  {
+    "name": "崇安牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "科園里科學園路33號1樓及2樓",
+    "director": "黃俊仁",
+    "phone": "(03)5785936",
+    "slug": "崇安牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B4%87%E5%AE%89%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E7%A7%91%E5%9C%92%E9%87%8C%E7%A7%91%E5%AD%B8%E5%9C%92%E8%B7%AF33%E8%99%9F1%E6%A8%93%E5%8F%8A2%E6%A8%93"
+  },
+  {
+    "name": "珂牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "武昌街１０６號",
+    "director": "彭明駿",
+    "phone": "(03)5234023",
+    "slug": "珂牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%8F%82%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%AD%A6%E6%98%8C%E8%A1%97%EF%BC%91%EF%BC%90%EF%BC%96%E8%99%9F"
+  },
+  {
+    "name": "維泰牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "民族路４７號",
+    "director": "詹文玄",
+    "phone": "(03)5320432",
+    "slug": "維泰牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B6%AD%E6%B3%B0%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%91%E6%97%8F%E8%B7%AF%EF%BC%94%EF%BC%97%E8%99%9F"
+  },
+  {
+    "name": "溫牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "三民里民族路177號",
+    "director": "溫建中",
+    "phone": "(03)5331081",
+    "slug": "溫牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%BA%AB%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%89%E6%B0%91%E9%87%8C%E6%B0%91%E6%97%8F%E8%B7%AF177%E8%99%9F"
+  },
+  {
+    "name": "禮正牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路一段３８１號",
+    "director": "姜禮正",
+    "phone": "(03)5776703",
+    "slug": "禮正牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%A6%AE%E6%AD%A3%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5%EF%BC%93%EF%BC%98%EF%BC%91%E8%99%9F"
+  },
+  {
+    "name": "沈牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "博愛街138號",
+    "director": "沈顯坤",
+    "phone": "(03)5725735",
+    "slug": "沈牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%88%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%9A%E6%84%9B%E8%A1%97138%E8%99%9F"
+  },
+  {
+    "name": "新明牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路一段４３６號",
+    "director": "徐煥明",
+    "phone": "(03)5798759",
+    "slug": "新明牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%96%B0%E6%98%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5%EF%BC%94%EF%BC%93%EF%BC%96%E8%99%9F"
+  },
+  {
+    "name": "唐牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "南大路８１６號",
+    "director": "唐明旺",
+    "phone": "(03)5267838",
+    "slug": "唐牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%94%90%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%97%E5%A4%A7%E8%B7%AF%EF%BC%98%EF%BC%91%EF%BC%96%E8%99%9F"
+  },
+  {
+    "name": "親親牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "東南街145號",
+    "director": "陳天河",
+    "phone": "(03)5252771",
+    "slug": "親親牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%A6%AA%E8%A6%AA%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%9D%B1%E5%8D%97%E8%A1%97145%E8%99%9F"
+  },
+  {
+    "name": "明湖牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "南大路４７１號",
+    "director": "林事銘",
+    "phone": "(03)5256237",
+    "slug": "明湖牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E6%B9%96%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%97%E5%A4%A7%E8%B7%AF%EF%BC%94%EF%BC%97%EF%BC%91%E8%99%9F"
+  },
+  {
+    "name": "光復牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路二段３５７號",
+    "director": "王瑞榮",
+    "phone": "(03)5726508",
+    "slug": "光復牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%89%E5%BE%A9%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%BA%8C%E6%AE%B5%EF%BC%93%EF%BC%95%EF%BC%97%E8%99%9F"
+  },
+  {
+    "name": "三民牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "中央路２８８號",
+    "director": "羅鴻政",
+    "phone": "(03)5310486",
+    "slug": "三民牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%89%E6%B0%91%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E4%B8%AD%E5%A4%AE%E8%B7%AF%EF%BC%92%EF%BC%98%EF%BC%98%E8%99%9F"
+  },
+  {
+    "name": "陳奕熹牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "民主路99號2樓",
+    "director": "陳奕熹",
+    "phone": "(03)5430272",
+    "slug": "陳奕熹牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E9%99%B3%E5%A5%95%E7%86%B9%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E6%B0%91%E4%B8%BB%E8%B7%AF99%E8%99%9F2%E6%A8%93"
+  },
+  {
+    "name": "中心牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "北大路76號",
+    "director": "錢武興",
+    "phone": "(03)5152786",
+    "slug": "中心牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B8%AD%E5%BF%83%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8C%97%E5%A4%A7%E8%B7%AF76%E8%99%9F"
+  },
+  {
+    "name": "曾元春牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "北大路２７－１號",
+    "director": "曾元春",
+    "phone": "(03)5336931",
+    "slug": "曾元春牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%9B%BE%E5%85%83%E6%98%A5%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8C%97%E5%A4%A7%E8%B7%AF%EF%BC%92%EF%BC%97%EF%BC%8D%EF%BC%91%E8%99%9F"
+  },
+  {
+    "name": "聯合牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "光復路一段631號1樓、2樓",
+    "director": "鄧世玲",
+    "phone": "(03)5770643",
+    "slug": "聯合牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E8%81%AF%E5%90%88%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%85%89%E5%BE%A9%E8%B7%AF%E4%B8%80%E6%AE%B5631%E8%99%9F1%E6%A8%93%E3%80%812%E6%A8%93"
+  },
+  {
+    "name": "明皓牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "食品路二二二號",
+    "director": "黃明燦",
+    "phone": "(03)5618777",
+    "slug": "明皓牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E7%9A%93%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E9%A3%9F%E5%93%81%E8%B7%AF%E4%BA%8C%E4%BA%8C%E4%BA%8C%E8%99%9F"
+  },
+  {
+    "name": "綻美牙醫診所",
+    "districtCode": "10018010",
+    "district": "東區",
+    "address": "占梅路20號1樓、22號1樓",
+    "director": "張鑫偉",
+    "phone": "(03)6686520",
+    "slug": "綻美牙醫診所",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E7%B6%BB%E7%BE%8E%E7%89%99%E9%86%AB%E8%A8%BA%E6%89%80+%E5%8D%A0%E6%A2%85%E8%B7%AF20%E8%99%9F1%E6%A8%93%E3%80%8122%E8%99%9F1%E6%A8%93"
+  }
+]

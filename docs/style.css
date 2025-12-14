@@ -1,0 +1,251 @@
+:root {
+  --bg: #f7f7fb;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --accent: #2563eb;
+  --accent-soft: #dbeafe;
+  --border: #e5e7eb;
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+  --radius: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Noto Sans TC", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.hero {
+  background: radial-gradient(circle at 20% 20%, rgba(37, 99, 235, 0.08), transparent 35%),
+    radial-gradient(circle at 80% 0%, rgba(16, 185, 129, 0.08), transparent 25%),
+    #0f172a;
+  color: white;
+  padding: 64px 24px;
+}
+
+.hero__content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  margin: 8px 0 12px;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.hero .lede {
+  max-width: 720px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.eyebrow {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.content {
+  max-width: 1080px;
+  margin: -32px auto 64px;
+  padding: 0 24px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.legend {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.district-grid {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.district {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 16px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.district h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.clinic-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.clinic-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: grid;
+  gap: 4px;
+}
+
+.clinic-card__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.clinic-card h4 {
+  margin: 0;
+}
+
+.clinic-card .meta {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.clinic-card .actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 6px;
+}
+
+.button {
+  background: var(--accent);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.15);
+}
+
+.button:hover {
+  transform: translateY(-1px);
+  background: #1d4ed8;
+}
+
+.button--ghost {
+  background: transparent;
+  color: var(--accent);
+  box-shadow: none;
+  border: 1px solid var(--accent);
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.footer {
+  text-align: center;
+  padding: 32px 16px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.clinic-page .hero {
+  padding: 48px 20px;
+}
+
+.clinic-page .hero__content {
+  max-width: 800px;
+}
+
+.clinic-page h1 {
+  margin: 8px 0 12px;
+}
+
+.content .card + .card {
+  margin-top: 16px;
+}
+
+.definition-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px 16px;
+  margin: 12px 0 0;
+}
+
+.definition-list dt {
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.definition-list dd {
+  margin: 4px 0 0;
+  font-size: 15px;
+}
+
+.back-link {
+  color: white;
+  font-weight: 600;
+}
+
+.rating {
+  margin: 12px 0 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.rating__value[data-has-rating="false"] {
+  color: #f8d775;
+}
+
+.card .rating__value {
+  color: #f59e0b;
+}
+
+@media (max-width: 600px) {
+  .card__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
