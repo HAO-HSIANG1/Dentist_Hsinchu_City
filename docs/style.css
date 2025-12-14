@@ -1,0 +1,83 @@
+
+:root {
+  --brand: #0f766e;
+  --brand-dark: #0c615b;
+  --bg: #f8fafc;
+  --text: #0f172a;
+  --muted: #475569;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+}
+
+* { box-sizing: border-box; }
+body {
+  font-family: "Noto Sans TC", "Inter", system-ui, -apple-system, sans-serif;
+  margin: 0;
+  color: var(--text);
+  background: var(--bg);
+}
+header {
+  background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+  color: white;
+  padding: 48px 24px 32px;
+  text-align: center;
+}
+.header-inner { max-width: 960px; margin: 0 auto; }
+h1 { margin: 0; font-size: 2.25rem; letter-spacing: 0.5px; }
+p.lead { margin-top: 12px; color: rgba(255,255,255,0.9); }
+main { max-width: 1100px; margin: -32px auto 0; padding: 0 16px 48px; }
+.search-box {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 10px 40px rgba(15, 23, 42, 0.08);
+}
+input[type="search"] {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  font-size: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+.card {
+  background: var(--card-bg);
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.06);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(15, 23, 42, 0.1); }
+.card h2 { margin: 0 0 6px; font-size: 1.1rem; }
+.card .meta { color: var(--muted); margin-bottom: 8px; font-size: 0.95rem; }
+.card a.primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--brand);
+  text-decoration: none;
+  font-weight: 600;
+}
+.card a.primary:hover { text-decoration: underline; }
+.detail {
+  max-width: 760px;
+  margin: 0 auto;
+  background: var(--card-bg);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 36px rgba(15, 23, 42, 0.08);
+}
+.detail h1 { margin-top: 0; }
+.detail .row { margin: 10px 0; color: var(--muted); }
+.detail .label { display: block; font-weight: 700; color: var(--text); }
+.detail .back-link { margin-top: 16px; display: inline-block; }
+footer { text-align: center; color: var(--muted); padding: 32px 12px 40px; }
+@media (max-width: 640px) { header { padding: 36px 20px; } }
