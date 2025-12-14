@@ -1,0 +1,107 @@
+:root {
+    color-scheme: light;
+    --bg: #f8fafc;
+    --text: #0f172a;
+    --muted: #475569;
+    --accent: #0ea5e9;
+    --card: #ffffff;
+    --border: #e2e8f0;
+}
+
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: "Noto Sans TC", "Inter", system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container {
+    width: min(1100px, 92vw);
+    margin: 0 auto;
+}
+
+.page-header {
+    background: linear-gradient(120deg, #e0f2fe, #e2f8f8);
+    border-bottom: 1px solid var(--border);
+    padding: 2.5rem 0;
+    margin-bottom: 1.5rem;
+}
+
+.page-header h1 { margin: 0.4rem 0; font-size: 2.25rem; }
+.page-header .lead { margin: 0; color: var(--muted); }
+
+.page-footer {
+    border-top: 1px solid var(--border);
+    background: #f1f5f9;
+    padding: 1.25rem 0;
+    margin-top: 2rem;
+    color: var(--muted);
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.3rem 0.7rem;
+    background: #0ea5e911;
+    color: var(--accent);
+    border-radius: 999px;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.lead { font-size: 1.05rem; }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+}
+
+.clinic-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    padding: 1.1rem 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px -22px rgba(15, 23, 42, 0.3);
+}
+
+.clinic-card h2 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.clinic-card .clinic-meta {
+    margin: 0.4rem 0;
+    color: var(--muted);
+}
+
+.clinic-detail dl {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+}
+
+.clinic-detail dt {
+    font-weight: 700;
+    color: var(--muted);
+}
+
+.clinic-detail dd {
+    margin: 0.2rem 0 0;
+    font-size: 1.05rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.55rem 0.9rem;
+    border-radius: 10px;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 700;
+}
+
+.button:hover { filter: brightness(1.05); }
