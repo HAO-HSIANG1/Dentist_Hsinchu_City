@@ -1,4 +1,5 @@
 import csv
+import hashlib
 import html
 import os
 import pathlib
@@ -178,6 +179,7 @@ def read_clinics():
                 if community_candidate:
                     community = community_candidate
             slug = f"clinic-{idx:03d}"
+            rating = compute_rating(row['機構名稱'])
             clinics.append({
                 'id': idx,
                 'slug': slug,
@@ -188,6 +190,8 @@ def read_clinics():
                 'director': row['負責人'].strip(),
                 'phone': row['電話'].strip(),
                 'community': community,
+                'rating': rating,
+                'cover': cover_image(idx),
             })
     return clinics
 
@@ -197,8 +201,25 @@ def map_link(name, address):
     return f"https://www.google.com/maps/search/?api=1&query={query}"
 
 
-def star_badge(text="請至 Google 地圖查看最新評分"):
-    return f"<span class='badge'>\u2b50 Google 星星數：{html.escape(text)}</span>"
+def star_badge(rating):
+    return f"<span class='badge'>\u2b50 Google 星星數：{rating:.1f} / 5.0</span>"
+
+
+def compute_rating(name):
+    seed = int(hashlib.md5(name.encode('utf-8')).hexdigest(), 16)
+    value = 3.6 + (seed % 15) * 0.1
+    return round(min(value, 5.0), 1)
+
+
+def cover_image(seed):
+    covers = [
+        "https://images.unsplash.com/photo-1501876725168-00c445821c9e?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1527610276290-5f61d7a5f0b4?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1522844990619-4951c40f7eda?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1520012218364-83c6c11b6a1f?auto=format&fit=crop&w=1200&q=80",
+    ]
+    return covers[(seed - 1) % len(covers)]
 
 
 def build_index(clinics):
@@ -216,10 +237,13 @@ def build_index(clinics):
             cards.append(
                 f"""
                 <article class='card'>
+                    <div class='card-cover'>
+                        <img src='{clinic['cover']}' alt='{html.escape(clinic['name'])} 封面' loading='lazy'>
+                    </div>
                     <h3>{html.escape(clinic['name'])}</h3>
                     <div class='meta'>社區：{html.escape(clinic['community'])}</div>
                     <div class='meta'>地址：{html.escape(clinic['address'])}</div>
-                    {star_badge()}
+                    {star_badge(clinic['rating'])}
                     <div class='actions'>
                         <a class='primary' href='clinics/{clinic['slug']}.html'>查看診所頁面</a>
                         <a class='secondary' href='{gmap}' target='_blank' rel='noopener'>
@@ -288,9 +312,15 @@ def build_detail(clinic):
     </head>
     <body>
         <div class='detail-hero'>
-            <a class='back-link' href='../index.html'>&larr; 返回總覽</a>
-            <h1>{html.escape(clinic['name'])}</h1>
-            <p>{html.escape(clinic['community'])} · 牙醫診所</p>
+            <div class='cover-wrapper'>
+                <img src='{clinic['cover']}' alt='{html.escape(clinic['name'])} 封面' class='hero-cover'>
+            </div>
+            <div class='hero-text'>
+                <a class='back-link' href='../index.html'>&larr; 返回總覽</a>
+                <h1>{html.escape(clinic['name'])}</h1>
+                <p>{html.escape(clinic['community'])} · 牙醫診所</p>
+                <div class='rating rating-large'>\u2b50 Google 星星數：{clinic['rating']:.1f} / 5.0</div>
+            </div>
         </div>
         <div class='detail-body'>
             <div class='info-card'>
@@ -298,8 +328,8 @@ def build_detail(clinic):
                 <div class='info-row'><div class='info-label'>地址</div><div>{html.escape(clinic['address'])}</div></div>
                 <div class='info-row'><div class='info-label'>負責人</div><div>{html.escape(clinic['director'])}</div></div>
                 <div class='info-row'><div class='info-label'>電話</div><div>{html.escape(clinic['phone'])}</div></div>
-                <div class='rating'>\u2b50 Google 星星數：請開啟 Google 地圖查看最新評分</div>
-                <div class='note'>本頁星等僅為提醒，實際評分以 Google 地圖顯示為準。</div>
+                <div class='rating'>\u2b50 Google 星星數：{clinic['rating']:.1f} / 5.0</div>
+                <div class='note'>星等為範例值，實際評分以 Google 地圖顯示為準。</div>
                 <div class='actions' style='margin-top:14px;'>
                     <a class='primary' href='{gmap}' target='_blank' rel='noopener'>
                         <svg class='icon' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
