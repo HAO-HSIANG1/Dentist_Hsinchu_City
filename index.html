@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>新竹市牙醫診所地圖</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content">
+      <p class="eyebrow">GitHub Pages</p>
+      <h1>新竹市牙醫診所索引</h1>
+      <p class="lede">依社區分類的診所一覽，提供 Google 地圖定位、電話及負責人資訊。點擊診所卡片即可查看詳細資訊，包含 Google 星等提示與地圖連結。</p>
+      <div class="actions">
+        <label class="select-label" for="communityFilter">依社區篩選</label>
+        <select id="communityFilter"></select>
+      </div>
+    </div>
+    <div class="hero__image" aria-hidden="true">
+      <div class="badge">新竹市</div>
+      <div class="bubble bubble--left">牙醫診所</div>
+      <div class="bubble bubble--right">社區導覽</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="communities" class="community-grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="footer">
+    <p>資料來源：Dentist_Hsinchu_City.csv。Google 星等以地圖實際顯示為準。</p>
+  </footer>
+
+  <template id="clinic-card-template">
+    <article class="clinic-card">
+      <div class="cover" role="img" aria-label="診所封面"></div>
+      <div class="clinic-content">
+        <header class="clinic-header">
+          <div>
+            <p class="clinic-community"></p>
+            <h3 class="clinic-name"></h3>
+            <p class="clinic-owner"></p>
+          </div>
+          <div class="rating" title="Google 星等（以地圖為準）">
+            <span class="rating-value"></span>
+            <span class="rating-stars" aria-hidden="true"></span>
+          </div>
+        </header>
+        <p class="clinic-address"></p>
+        <div class="clinic-meta">
+          <a class="button button--ghost" target="_blank" rel="noopener" data-map-link>
+            <span class="icon">📍</span> Google 地圖
+          </a>
+          <a class="button" href="tel:"><span class="icon">📞</span><span class="phone"></span></a>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <script src="assets/app.js" type="module"></script>
+</body>
+</html>

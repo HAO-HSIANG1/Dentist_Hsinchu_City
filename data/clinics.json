@@ -1,0 +1,1388 @@
+[
+  {
+    "name": "森美牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "大同里中正路111號1樓、2樓",
+    "owner": "李森孟",
+    "phone": "(03)5260203",
+    "community": "大同里"
+  },
+  {
+    "name": "黃啟祥牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "和福街105號",
+    "owner": "黃啟祥",
+    "phone": "(03)5269095",
+    "community": "未分類"
+  },
+  {
+    "name": "福華牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "育英里四維路54號1樓",
+    "owner": "吳英法",
+    "phone": "(03)5262345",
+    "community": "育英里"
+  },
+  {
+    "name": "親民牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "竹光路２１號",
+    "owner": "黃宏正",
+    "phone": "(03)5427027",
+    "community": "未分類"
+  },
+  {
+    "name": "如意牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "光田里水田街131號",
+    "owner": "呂正德",
+    "phone": "(03)5422765",
+    "community": "光田里"
+  },
+  {
+    "name": "僑霖牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "水田街１２０號",
+    "owner": "潘瑞誠",
+    "phone": "(03)5330060",
+    "community": "未分類"
+  },
+  {
+    "name": "經典牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "海濱里西濱路一段345號1樓",
+    "owner": "彭奕炘",
+    "phone": "(03)5366111",
+    "community": "海濱里"
+  },
+  {
+    "name": "博悅牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "水田里演藝路25號B1",
+    "owner": "盧中達",
+    "phone": "(03)5424303",
+    "community": "水田里"
+  },
+  {
+    "name": "里昂哈佛國際牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "北門里北大路192號",
+    "owner": "沈文彬",
+    "phone": "(03)5256030",
+    "community": "北門里"
+  },
+  {
+    "name": "彼德潘牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "武陵里武陵路82號1樓",
+    "owner": "曾淑萍",
+    "phone": "(03)5408285",
+    "community": "武陵里"
+  },
+  {
+    "name": "九歌牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "武陵里東大路2段188號",
+    "owner": "遲玉堃",
+    "phone": "(03)5341616",
+    "community": "武陵里"
+  },
+  {
+    "name": "銘燦牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "北大路１６0號一樓",
+    "owner": "陳銘燦",
+    "phone": "(03)5322345",
+    "community": "未分類"
+  },
+  {
+    "name": "創美牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "客雅里經國路二段543號",
+    "owner": "藍鴻文",
+    "phone": "(03)5285335",
+    "community": "客雅里"
+  },
+  {
+    "name": "博暘牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "中正路３８６號",
+    "owner": "麥正賢",
+    "phone": "(03)5356805",
+    "community": "未分類"
+  },
+  {
+    "name": "康橋牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "光華一街10號",
+    "owner": "吳令琪",
+    "phone": "(03)5339722",
+    "community": "未分類"
+  },
+  {
+    "name": "琉璃光牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "新民里北大路256號1樓",
+    "owner": "蘇東隆",
+    "phone": "(03)5222131",
+    "community": "新民里"
+  },
+  {
+    "name": "安定牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "金竹里金竹路150號",
+    "owner": "胡世輝",
+    "phone": "(03)5314307",
+    "community": "金竹里"
+  },
+  {
+    "name": "光華牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "光華一街60號",
+    "owner": "陳淑純",
+    "phone": "(03)5312420",
+    "community": "未分類"
+  },
+  {
+    "name": "永川牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "光華南街54之2號1樓",
+    "owner": "陳尚文",
+    "phone": "(03)5326326",
+    "community": "未分類"
+  },
+  {
+    "name": "謝牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "城北街一三九號",
+    "owner": "謝東榮",
+    "phone": "(03)5439395",
+    "community": "未分類"
+  },
+  {
+    "name": "全家牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "武陵里武陵路73巷6號1樓",
+    "owner": "林語",
+    "phone": "(03)5409188",
+    "community": "武陵里"
+  },
+  {
+    "name": "雅緻生活牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "光田里水田街51號1樓、2樓",
+    "owner": "林裕斌",
+    "phone": "(03)5356505",
+    "community": "光田里"
+  },
+  {
+    "name": "馨典牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "北門里民富街39號、41號",
+    "owner": "何宜威",
+    "phone": "(03)5251977",
+    "community": "北門里"
+  },
+  {
+    "name": "陳清龍牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "中山路183號",
+    "owner": "陳清龍",
+    "phone": "(03)5220899",
+    "community": "未分類"
+  },
+  {
+    "name": "懷仁牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "磐石路３５號",
+    "owner": "林懷仁",
+    "phone": "(03)5268510",
+    "community": "未分類"
+  },
+  {
+    "name": "東大牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "東大路２段３６５號",
+    "owner": "李榮泉",
+    "phone": "(03)5312087",
+    "community": "未分類"
+  },
+  {
+    "name": "仁德牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "西大路４７３號",
+    "owner": "蕭文學",
+    "phone": "(03)5265556",
+    "community": "未分類"
+  },
+  {
+    "name": "東濟牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "湳雅街2-5號",
+    "owner": "何卓殷",
+    "phone": "(03)5349277",
+    "community": "未分類"
+  },
+  {
+    "name": "新捷牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "水田街２１號",
+    "owner": "胡正庸",
+    "phone": "(03)5313190",
+    "community": "未分類"
+  },
+  {
+    "name": "王牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "中山路２２號２Ｆ",
+    "owner": "王黃政",
+    "phone": "(03)5248922",
+    "community": "未分類"
+  },
+  {
+    "name": "冠傑牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "林森路二五三號三樓",
+    "owner": "田怡君",
+    "phone": "(03)5238635",
+    "community": "未分類"
+  },
+  {
+    "name": "譚牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "武陵路2號",
+    "owner": "譚顯崑",
+    "phone": "(03)5333142",
+    "community": "未分類"
+  },
+  {
+    "name": "黃建群牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "中華路三段28號",
+    "owner": "黃建群",
+    "phone": "(03)5259939",
+    "community": "未分類"
+  },
+  {
+    "name": "潔明牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "西門街６２號",
+    "owner": "郭柏麟",
+    "phone": "(03)5250227",
+    "community": "未分類"
+  },
+  {
+    "name": "雅群牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "水田街134號1樓",
+    "owner": "溫鈺雅",
+    "phone": "(03)5153492",
+    "community": "未分類"
+  },
+  {
+    "name": "傑霖牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "西大路634號",
+    "owner": "許文傑",
+    "phone": "(03)5265995",
+    "community": "未分類"
+  },
+  {
+    "name": "榮浩牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "武陵路一五三號",
+    "owner": "鄭榮浩",
+    "phone": "(03)5335838",
+    "community": "未分類"
+  },
+  {
+    "name": "陽明牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "民富街２７號",
+    "owner": "吳學孟",
+    "phone": "(03)5282386",
+    "community": "未分類"
+  },
+  {
+    "name": "翰霖牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "西大路710號",
+    "owner": "郭珊珊",
+    "phone": "(03)5356930",
+    "community": "未分類"
+  },
+  {
+    "name": "游牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "四維路４5號",
+    "owner": "游振宗",
+    "phone": "(03)5238158",
+    "community": "未分類"
+  },
+  {
+    "name": "江牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "中山路２５３號",
+    "owner": "江淑媛",
+    "phone": "(03)5223450",
+    "community": "未分類"
+  },
+  {
+    "name": "懷恩牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "潛園里北大路325號",
+    "owner": "張誌珊",
+    "phone": "(03)5261357",
+    "community": "潛園里"
+  },
+  {
+    "name": "吳慧琳牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "經國路一段３２９號１樓",
+    "owner": "吳慧琳",
+    "phone": "(03)5319264",
+    "community": "未分類"
+  },
+  {
+    "name": "東寧牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "大同里中央路89、91號第一層",
+    "owner": "曾敬庭",
+    "phone": "(03)5260768",
+    "community": "大同里"
+  },
+  {
+    "name": "許牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "中山路２１１號",
+    "owner": "許再添",
+    "phone": "(03)5241661",
+    "community": "未分類"
+  },
+  {
+    "name": "陳牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018020",
+    "address": "北大路２３９巷１號",
+    "owner": "陳奕炘",
+    "phone": "(03)5234528",
+    "community": "未分類"
+  },
+  {
+    "name": "朝春牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018030",
+    "address": "內湖路49號",
+    "owner": "葉育敏",
+    "phone": "(03)5377103",
+    "community": "未分類"
+  },
+  {
+    "name": "深潭牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018030",
+    "address": "牛埔路４４０號",
+    "owner": "吳永尚",
+    "phone": "(03)5388420",
+    "community": "未分類"
+  },
+  {
+    "name": "永志牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018030",
+    "address": "牛埔路４３７號",
+    "owner": "吳永志",
+    "phone": "(03)5387553",
+    "community": "未分類"
+  },
+  {
+    "name": "香杉牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018030",
+    "address": "香山里大庄路130號1-2樓及132號1-2樓",
+    "owner": "秦偉庭",
+    "phone": "(03)5397268",
+    "community": "香山里"
+  },
+  {
+    "name": "宏揚牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "東光路200號1樓",
+    "owner": "周豐智",
+    "phone": "(03)5710189",
+    "community": "未分類"
+  },
+  {
+    "name": "誠品牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "南大里西大路91號1樓",
+    "owner": "陳姮希",
+    "phone": "(03)5618686",
+    "community": "南大里"
+  },
+  {
+    "name": "晨光牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "公園里公園路286號1樓",
+    "owner": "楊國暐",
+    "phone": "(03)5610905",
+    "community": "公園里"
+  },
+  {
+    "name": "寓光牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "新莊里關新北路155號",
+    "owner": "徐孟駒",
+    "phone": "(03)6667756",
+    "community": "新莊里"
+  },
+  {
+    "name": "全美牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "振興里南大路586號",
+    "owner": "何政璋",
+    "phone": "(03)5620119",
+    "community": "振興里"
+  },
+  {
+    "name": "心勤美學牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "埔頂里埔頂二路99號1-2樓",
+    "owner": "林士桓",
+    "phone": "(03)6669898",
+    "community": "埔頂里"
+  },
+  {
+    "name": "恩澄牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "關新里光復路一段362-9號1-2樓",
+    "owner": "吳兆鴻",
+    "phone": "(03)6686764",
+    "community": "關新里"
+  },
+  {
+    "name": "怡櫟牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "東新路1號1樓",
+    "owner": "陳長佑",
+    "phone": "(03)5750869",
+    "community": "未分類"
+  },
+  {
+    "name": "明悅精品牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "中央路214號1-2樓",
+    "owner": "李湘晴",
+    "phone": "(03)5331586",
+    "community": "未分類"
+  },
+  {
+    "name": "朱育正牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "復中里中央路219號1-2樓",
+    "owner": "朱育正",
+    "phone": "(03)5436999",
+    "community": "復中里"
+  },
+  {
+    "name": "倨誠牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "三民里民族路117號1-2樓",
+    "owner": "韓伊淳",
+    "phone": "(03)5358866",
+    "community": "三民里"
+  },
+  {
+    "name": "皓齊牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "新興里南大路397號1-2樓",
+    "owner": "王廸崴",
+    "phone": "(03)5621009",
+    "community": "新興里"
+  },
+  {
+    "name": "和毅牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "南市里林森路149號1、2樓",
+    "owner": "吳和泰",
+    "phone": "(03)5228866",
+    "community": "南市里"
+  },
+  {
+    "name": "園區牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "仙水里光復路一段307號1樓",
+    "owner": "鄭宇芯",
+    "phone": "(03)5783712",
+    "community": "仙水里"
+  },
+  {
+    "name": "晶華牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "科園里科學園區力行六路8號3樓317C室",
+    "owner": "辜柏誠",
+    "phone": "(03)5779577",
+    "community": "科園里"
+  },
+  {
+    "name": "品御牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "東園里八德路162號1樓",
+    "owner": "李俊瑩",
+    "phone": "(03)5725557",
+    "community": "東園里"
+  },
+  {
+    "name": "京典牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "金山里金山十一街19號1樓",
+    "owner": "吳易霖",
+    "phone": "(03)6663888",
+    "community": "金山里"
+  },
+  {
+    "name": "日光翡麗牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "關新里關新路65號",
+    "owner": "馬瑞宏",
+    "phone": "(03)5678699",
+    "community": "關新里"
+  },
+  {
+    "name": "紐約牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "文華里民生路309號2F",
+    "owner": "許祥威",
+    "phone": "(03)5152206",
+    "community": "文華里"
+  },
+  {
+    "name": "寶傑美學牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "福德里中華路二段702號1～2樓",
+    "owner": "李寶傑",
+    "phone": "(03)5280377",
+    "community": "福德里"
+  },
+  {
+    "name": "森源牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "綠水里光復路二段261號1、2樓",
+    "owner": "林森田",
+    "phone": "(03)5728088",
+    "community": "綠水里"
+  },
+  {
+    "name": "意康牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "仙水里光復路一段331-2號",
+    "owner": "王啟得",
+    "phone": "(03)6663232",
+    "community": "仙水里"
+  },
+  {
+    "name": "金牛頓牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "豐功里建功一路176號、178號",
+    "owner": "蘇筌瑋",
+    "phone": "(03)5733896",
+    "community": "豐功里"
+  },
+  {
+    "name": "關新牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "新莊里關新東路356號",
+    "owner": "卓聯宇",
+    "phone": "(03)5770607",
+    "community": "新莊里"
+  },
+  {
+    "name": "東門牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "榮光里東門街67號1樓",
+    "owner": "劉騰文",
+    "phone": "(03)5281250",
+    "community": "榮光里"
+  },
+  {
+    "name": "筑心筑美牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "關新東路280號1-2樓",
+    "owner": "莊涵芝",
+    "phone": "(03)5782168",
+    "community": "未分類"
+  },
+  {
+    "name": "嶺先牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "關新里關新路225號3樓",
+    "owner": "張倩瑜",
+    "phone": "(03)5679312",
+    "community": "關新里"
+  },
+  {
+    "name": "天晴牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "龍山里慈濟路206號1樓",
+    "owner": "王勳甲",
+    "phone": "(03)5775206",
+    "community": "龍山里"
+  },
+  {
+    "name": "杏明牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "仙宮里高翠路101號2樓",
+    "owner": "陳安絹",
+    "phone": "(03)6668918",
+    "community": "仙宮里"
+  },
+  {
+    "name": "銘仁牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "林森路6號1樓及2樓",
+    "owner": "熊士強",
+    "phone": "(03)5255238",
+    "community": "未分類"
+  },
+  {
+    "name": "永霖牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "南門街16號",
+    "owner": "陳瑞陽",
+    "phone": "(03)5246303",
+    "community": "未分類"
+  },
+  {
+    "name": "品味牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "金山街138號1-3樓",
+    "owner": "郭彥君",
+    "phone": "(03)6662299",
+    "community": "未分類"
+  },
+  {
+    "name": "小城堡牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "復興里經國路一段379巷36號1樓",
+    "owner": "吳佩蓁",
+    "phone": "(03)5351855",
+    "community": "復興里"
+  },
+  {
+    "name": "立安牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "育賢里東門街34巷9號1樓",
+    "owner": "許璧娟",
+    "phone": "(03)5333025",
+    "community": "育賢里"
+  },
+  {
+    "name": "森釉牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "關新東路276號1-2樓",
+    "owner": "林佳勳",
+    "phone": "(03)5797858",
+    "community": "未分類"
+  },
+  {
+    "name": "詠美牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "東園里鐵道路一段18號1樓",
+    "owner": "林東慶",
+    "phone": "(03)5351153",
+    "community": "東園里"
+  },
+  {
+    "name": "峰皇牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "榮光里東門街29、31號",
+    "owner": "陳文傑",
+    "phone": "(03)5243666",
+    "community": "榮光里"
+  },
+  {
+    "name": "育賢牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光鎮里南大路830號",
+    "owner": "廖雅惠",
+    "phone": "(03)5621717",
+    "community": "光鎮里"
+  },
+  {
+    "name": "君悅牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "科園里光復路一段563號1、2樓",
+    "owner": "陳俊利",
+    "phone": "(03)5787088",
+    "community": "科園里"
+  },
+  {
+    "name": "佳新牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "新莊街八十一號",
+    "owner": "黃堯堂",
+    "phone": "(03)5633346",
+    "community": "未分類"
+  },
+  {
+    "name": "美日牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "東門街二十三、二十五號一、二、三樓",
+    "owner": "羅秋美",
+    "phone": "(03)5232502",
+    "community": "未分類"
+  },
+  {
+    "name": "德陞牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路一段五○七號一樓",
+    "owner": "王昭凱",
+    "phone": "(03)5636611",
+    "community": "未分類"
+  },
+  {
+    "name": "達觀牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "大同路７－１號二樓",
+    "owner": "郭尚倫",
+    "phone": "(03)5265589",
+    "community": "未分類"
+  },
+  {
+    "name": "新美學牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "新莊里關新路19巷5號",
+    "owner": "周郁玫",
+    "phone": "(03)6668610",
+    "community": "新莊里"
+  },
+  {
+    "name": "惠群牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "公園里南大路109號",
+    "owner": "溫飛翊",
+    "phone": "(03)5250037",
+    "community": "公園里"
+  },
+  {
+    "name": "尖端牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路二段２７２號二樓",
+    "owner": "古國鉅",
+    "phone": "(03)5714800",
+    "community": "未分類"
+  },
+  {
+    "name": "崇善牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "復中里３鄰錦華街１４號２Ｆ",
+    "owner": "郭振興",
+    "phone": "(03)5349447",
+    "community": "復中里"
+  },
+  {
+    "name": "榮信牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路一段４７２號三樓之八",
+    "owner": "劉信熹",
+    "phone": "(03)5781122",
+    "community": "未分類"
+  },
+  {
+    "name": "大新牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路二段３８３號",
+    "owner": "楊演杉",
+    "phone": "(03)5714371",
+    "community": "未分類"
+  },
+  {
+    "name": "安徒生牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "武功里建功一路87號",
+    "owner": "徐玉玲",
+    "phone": "(03)5749385",
+    "community": "武功里"
+  },
+  {
+    "name": "安心牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "復中里民生路246號1樓",
+    "owner": "簡英健",
+    "phone": "(03)5312378",
+    "community": "復中里"
+  },
+  {
+    "name": "尊爵時尚牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "豐功里建中路128號1樓及130號1樓",
+    "owner": "李鎮宇",
+    "phone": "(03)5733699",
+    "community": "豐功里"
+  },
+  {
+    "name": "清新牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "南門里中華路二段501號1樓",
+    "owner": "呂玄評",
+    "phone": "(03)5260672",
+    "community": "南門里"
+  },
+  {
+    "name": "禾一牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "南大里西大路17號、19號1、2樓",
+    "owner": "潘姿延",
+    "phone": "(03)5611691",
+    "community": "南大里"
+  },
+  {
+    "name": "明威牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "新莊里關新路19巷31號",
+    "owner": "陳世明",
+    "phone": "(03)6667907",
+    "community": "新莊里"
+  },
+  {
+    "name": "普洛牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "軍功里光復路二段430號1樓",
+    "owner": "張雪芬",
+    "phone": "(03)5751992",
+    "community": "軍功里"
+  },
+  {
+    "name": "國喬牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路二段一七六號",
+    "owner": "楊欣達",
+    "phone": "(03)5714520",
+    "community": "未分類"
+  },
+  {
+    "name": "敏華牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "新莊里關新路27號3樓之2及3樓之3",
+    "owner": "王敏權",
+    "phone": "(03)6686151",
+    "community": "新莊里"
+  },
+  {
+    "name": "敦品牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "三民里民權路101號1樓",
+    "owner": "宋錦明",
+    "phone": "(03)5438382",
+    "community": "三民里"
+  },
+  {
+    "name": "皇家牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "中正里中正路93號1樓",
+    "owner": "陳志賢",
+    "phone": "(03)5223811",
+    "community": "中正里"
+  },
+  {
+    "name": "簡牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "民生路２００號",
+    "owner": "簡英俊",
+    "phone": "(03)5320790",
+    "community": "未分類"
+  },
+  {
+    "name": "上慈牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "民族路84-2號",
+    "owner": "劉惠娟",
+    "phone": "(03)5355655",
+    "community": "未分類"
+  },
+  {
+    "name": "孫牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "西大路３７６號",
+    "owner": "孫文郁",
+    "phone": "(03)5241665",
+    "community": "未分類"
+  },
+  {
+    "name": "宏昌牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "中央路１４４號１樓",
+    "owner": "許瑞宏",
+    "phone": "(03)5324237",
+    "community": "未分類"
+  },
+  {
+    "name": "蔡牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "民權路５９號",
+    "owner": "蔡國明",
+    "phone": "(03)5323636",
+    "community": "未分類"
+  },
+  {
+    "name": "大學牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路二段４３４號",
+    "owner": "施幸美",
+    "phone": "(03)5720909",
+    "community": "未分類"
+  },
+  {
+    "name": "康齡牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路二段222號",
+    "owner": "高翔鵬",
+    "phone": "(03)5753033",
+    "community": "未分類"
+  },
+  {
+    "name": "耕心牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路二段380號二樓",
+    "owner": "羅明灃",
+    "phone": "(03)5727139",
+    "community": "未分類"
+  },
+  {
+    "name": "貝多芬牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "建功一路59巷6號",
+    "owner": "張慧男",
+    "phone": "(03)5749567",
+    "community": "未分類"
+  },
+  {
+    "name": "關東橋仁美牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "西大路165號1F",
+    "owner": "施性平",
+    "phone": "(03)5615320",
+    "community": "未分類"
+  },
+  {
+    "name": "誼安牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "復中里中央路178號1樓",
+    "owner": "薛文崚",
+    "phone": "(03)5357700",
+    "community": "復中里"
+  },
+  {
+    "name": "品傑牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "東南街１５０號",
+    "owner": "陳明達",
+    "phone": "(03)5619665",
+    "community": "未分類"
+  },
+  {
+    "name": "王存禎牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "食品路142號1樓",
+    "owner": "王存禎",
+    "phone": "(03)5615581",
+    "community": "未分類"
+  },
+  {
+    "name": "陳慧貞牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "建新路36號",
+    "owner": "陳慧貞",
+    "phone": "(03)5723629",
+    "community": "未分類"
+  },
+  {
+    "name": "鄭牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "南大路３４３號",
+    "owner": "鄭志賢",
+    "phone": "(03)5265456",
+    "community": "未分類"
+  },
+  {
+    "name": "米羅牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路一段432號",
+    "owner": "曾朝國",
+    "phone": "(03)5642009",
+    "community": "未分類"
+  },
+  {
+    "name": "宏大牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "食品路５４５號",
+    "owner": "羅文杰",
+    "phone": "(03)5613537",
+    "community": "未分類"
+  },
+  {
+    "name": "智信牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "新莊街75號77號1樓",
+    "owner": "蔣智信",
+    "phone": "(03)5781997",
+    "community": "未分類"
+  },
+  {
+    "name": "秀雅牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "金山里金山北二街61號",
+    "owner": "曾還慧",
+    "phone": "(03)5780580",
+    "community": "金山里"
+  },
+  {
+    "name": "微笑牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "民族路一五八之一號一樓",
+    "owner": "陳恩翊",
+    "phone": "(03)5152408",
+    "community": "未分類"
+  },
+  {
+    "name": "王子牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "文華里田美三街20號",
+    "owner": "蕭雅尹",
+    "phone": "(03)5337890",
+    "community": "文華里"
+  },
+  {
+    "name": "上上牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "中山路４００號",
+    "owner": "曾堃益",
+    "phone": "(03)5251383",
+    "community": "未分類"
+  },
+  {
+    "name": "展新牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "勝利路一七五號二樓",
+    "owner": "黃昱霖",
+    "phone": "(03)5246312",
+    "community": "未分類"
+  },
+  {
+    "name": "先進牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "食品路417號",
+    "owner": "蘇大海",
+    "phone": "(03)5228999",
+    "community": "未分類"
+  },
+  {
+    "name": "金明牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "食品路１０３巷２號１Ｆ",
+    "owner": "汪金豪",
+    "phone": "(03)5711899",
+    "community": "未分類"
+  },
+  {
+    "name": "信愛牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "北大路29之1號2樓",
+    "owner": "胡哲雄",
+    "phone": "(03)5313760",
+    "community": "未分類"
+  },
+  {
+    "name": "崇安牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "科園里科學園路33號1樓及2樓",
+    "owner": "黃俊仁",
+    "phone": "(03)5785936",
+    "community": "科園里"
+  },
+  {
+    "name": "珂牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "武昌街１０６號",
+    "owner": "彭明駿",
+    "phone": "(03)5234023",
+    "community": "未分類"
+  },
+  {
+    "name": "維泰牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "民族路４７號",
+    "owner": "詹文玄",
+    "phone": "(03)5320432",
+    "community": "未分類"
+  },
+  {
+    "name": "溫牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "三民里民族路177號",
+    "owner": "溫建中",
+    "phone": "(03)5331081",
+    "community": "三民里"
+  },
+  {
+    "name": "禮正牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路一段３８１號",
+    "owner": "姜禮正",
+    "phone": "(03)5776703",
+    "community": "未分類"
+  },
+  {
+    "name": "沈牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "博愛街138號",
+    "owner": "沈顯坤",
+    "phone": "(03)5725735",
+    "community": "未分類"
+  },
+  {
+    "name": "新明牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路一段４３６號",
+    "owner": "徐煥明",
+    "phone": "(03)5798759",
+    "community": "未分類"
+  },
+  {
+    "name": "唐牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "南大路８１６號",
+    "owner": "唐明旺",
+    "phone": "(03)5267838",
+    "community": "未分類"
+  },
+  {
+    "name": "親親牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "東南街145號",
+    "owner": "陳天河",
+    "phone": "(03)5252771",
+    "community": "未分類"
+  },
+  {
+    "name": "明湖牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "南大路４７１號",
+    "owner": "林事銘",
+    "phone": "(03)5256237",
+    "community": "未分類"
+  },
+  {
+    "name": "光復牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路二段３５７號",
+    "owner": "王瑞榮",
+    "phone": "(03)5726508",
+    "community": "未分類"
+  },
+  {
+    "name": "三民牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "中央路２８８號",
+    "owner": "羅鴻政",
+    "phone": "(03)5310486",
+    "community": "未分類"
+  },
+  {
+    "name": "陳奕熹牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "民主路99號2樓",
+    "owner": "陳奕熹",
+    "phone": "(03)5430272",
+    "community": "未分類"
+  },
+  {
+    "name": "中心牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "北大路76號",
+    "owner": "錢武興",
+    "phone": "(03)5152786",
+    "community": "未分類"
+  },
+  {
+    "name": "曾元春牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "北大路２７－１號",
+    "owner": "曾元春",
+    "phone": "(03)5336931",
+    "community": "未分類"
+  },
+  {
+    "name": "聯合牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "光復路一段631號1樓、2樓",
+    "owner": "鄧世玲",
+    "phone": "(03)5770643",
+    "community": "未分類"
+  },
+  {
+    "name": "明皓牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "食品路二二二號",
+    "owner": "黃明燦",
+    "phone": "(03)5618777",
+    "community": "未分類"
+  },
+  {
+    "name": "綻美牙醫診所",
+    "cityCode": "10018",
+    "districtCode": "10018010",
+    "address": "占梅路20號1樓、22號1樓",
+    "owner": "張鑫偉",
+    "phone": "(03)6686520",
+    "community": "未分類"
+  }
+]
