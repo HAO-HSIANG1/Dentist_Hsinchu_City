@@ -1,0 +1,1619 @@
+
+    <!doctype html>
+    <html lang="zh-Hant">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>新竹市牙醫診所列表</title>
+        <style>
+            :root {
+                --bg: #f9fafb;
+                --card: #ffffff;
+                --primary: #1f6feb;
+                --text: #0f172a;
+                --muted: #475569;
+                --border: #e2e8f0;
+            }
+            * { box-sizing: border-box; }
+            body {
+                margin: 0;
+                font-family: 'Noto Sans TC', 'Segoe UI', system-ui, -apple-system, sans-serif;
+                background: var(--bg);
+                color: var(--text);
+            }
+            header.page-header {
+                padding: 2rem 1.25rem 1rem;
+                text-align: center;
+                background: linear-gradient(135deg, #e0f2fe, #eff6ff);
+                border-bottom: 1px solid var(--border);
+            }
+            header.page-header h1 { margin: 0 0 .5rem; font-size: clamp(1.75rem, 2vw + 1rem, 2.4rem); }
+            header.page-header p { margin: 0 auto; max-width: 720px; color: var(--muted); line-height: 1.5; }
+            main { max-width: 1200px; margin: 0 auto; padding: 1.5rem; }
+            .search { display: flex; gap: .75rem; flex-wrap: wrap; margin-bottom: 1.5rem; align-items: center; }
+            .search input { flex: 1 1 240px; padding: .85rem 1rem; border-radius: .75rem; border: 1px solid var(--border); font-size: 1rem; }
+            .search small { color: var(--muted); }
+            .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+            .card { background: var(--card); border: 1px solid var(--border); border-radius: 1rem; padding: 1rem 1.1rem; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05); display: flex; flex-direction: column; gap: .35rem; }
+            .card h2 { margin: 0; font-size: 1.2rem; }
+            .card a { color: var(--primary); text-decoration: none; }
+            .card .manager, .card .address, .card .phone { margin: 0; color: var(--muted); line-height: 1.4; }
+            .cta { margin-top: .35rem; align-self: flex-start; font-weight: 600; }
+            footer { text-align: center; color: var(--muted); padding: 2rem 1rem; font-size: .95rem; }
+        </style>
+    </head>
+    <body>
+        <header class="page-header">
+            <h1>新竹市牙醫診所專屬網站</h1>
+            <p>從 CSV 資料自動產生的靜態網站。點擊任一診所即可進入其專屬頁面，查看負責人、地址與聯絡方式。</p>
+        </header>
+        <main>
+            <div class="search">
+                <input id="search" type="search" placeholder="搜尋診所名稱、負責人、地址或電話" aria-label="搜尋">
+                <small>共 154 間診所</small>
+            </div>
+            <section class="grid" id="cards">
+                
+            <article class="card" data-name="森美牙醫診所" data-manager="李森孟" data-address="大同里中正路111號1樓、2樓" data-phone="(03)5260203">
+                <header>
+                    <h2><a href="clinics/clinic-001.html">森美牙醫診所</a></h2>
+                    <p class="manager">負責人：李森孟</p>
+                </header>
+                <p class="address">地址：大同里中正路111號1樓、2樓</p>
+                <p class="phone">電話：(03)5260203</p>
+                <a class="cta" href="clinics/clinic-001.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="黃啟祥牙醫診所" data-manager="黃啟祥" data-address="和福街105號" data-phone="(03)5269095">
+                <header>
+                    <h2><a href="clinics/clinic-002.html">黃啟祥牙醫診所</a></h2>
+                    <p class="manager">負責人：黃啟祥</p>
+                </header>
+                <p class="address">地址：和福街105號</p>
+                <p class="phone">電話：(03)5269095</p>
+                <a class="cta" href="clinics/clinic-002.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="福華牙醫診所" data-manager="吳英法" data-address="育英里四維路54號1樓" data-phone="(03)5262345">
+                <header>
+                    <h2><a href="clinics/clinic-003.html">福華牙醫診所</a></h2>
+                    <p class="manager">負責人：吳英法</p>
+                </header>
+                <p class="address">地址：育英里四維路54號1樓</p>
+                <p class="phone">電話：(03)5262345</p>
+                <a class="cta" href="clinics/clinic-003.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="親民牙醫診所" data-manager="黃宏正" data-address="竹光路２１號" data-phone="(03)5427027">
+                <header>
+                    <h2><a href="clinics/clinic-004.html">親民牙醫診所</a></h2>
+                    <p class="manager">負責人：黃宏正</p>
+                </header>
+                <p class="address">地址：竹光路２１號</p>
+                <p class="phone">電話：(03)5427027</p>
+                <a class="cta" href="clinics/clinic-004.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="如意牙醫診所" data-manager="呂正德" data-address="光田里水田街131號" data-phone="(03)5422765">
+                <header>
+                    <h2><a href="clinics/clinic-005.html">如意牙醫診所</a></h2>
+                    <p class="manager">負責人：呂正德</p>
+                </header>
+                <p class="address">地址：光田里水田街131號</p>
+                <p class="phone">電話：(03)5422765</p>
+                <a class="cta" href="clinics/clinic-005.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="僑霖牙醫診所" data-manager="潘瑞誠" data-address="水田街１２０號" data-phone="(03)5330060">
+                <header>
+                    <h2><a href="clinics/clinic-006.html">僑霖牙醫診所</a></h2>
+                    <p class="manager">負責人：潘瑞誠</p>
+                </header>
+                <p class="address">地址：水田街１２０號</p>
+                <p class="phone">電話：(03)5330060</p>
+                <a class="cta" href="clinics/clinic-006.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="經典牙醫診所" data-manager="彭奕炘" data-address="海濱里西濱路一段345號1樓" data-phone="(03)5366111">
+                <header>
+                    <h2><a href="clinics/clinic-007.html">經典牙醫診所</a></h2>
+                    <p class="manager">負責人：彭奕炘</p>
+                </header>
+                <p class="address">地址：海濱里西濱路一段345號1樓</p>
+                <p class="phone">電話：(03)5366111</p>
+                <a class="cta" href="clinics/clinic-007.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="博悅牙醫診所" data-manager="盧中達" data-address="水田里演藝路25號B1" data-phone="(03)5424303">
+                <header>
+                    <h2><a href="clinics/clinic-008.html">博悅牙醫診所</a></h2>
+                    <p class="manager">負責人：盧中達</p>
+                </header>
+                <p class="address">地址：水田里演藝路25號B1</p>
+                <p class="phone">電話：(03)5424303</p>
+                <a class="cta" href="clinics/clinic-008.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="里昂哈佛國際牙醫診所" data-manager="沈文彬" data-address="北門里北大路192號" data-phone="(03)5256030">
+                <header>
+                    <h2><a href="clinics/clinic-009.html">里昂哈佛國際牙醫診所</a></h2>
+                    <p class="manager">負責人：沈文彬</p>
+                </header>
+                <p class="address">地址：北門里北大路192號</p>
+                <p class="phone">電話：(03)5256030</p>
+                <a class="cta" href="clinics/clinic-009.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="彼德潘牙醫診所" data-manager="曾淑萍" data-address="武陵里武陵路82號1樓" data-phone="(03)5408285">
+                <header>
+                    <h2><a href="clinics/clinic-010.html">彼德潘牙醫診所</a></h2>
+                    <p class="manager">負責人：曾淑萍</p>
+                </header>
+                <p class="address">地址：武陵里武陵路82號1樓</p>
+                <p class="phone">電話：(03)5408285</p>
+                <a class="cta" href="clinics/clinic-010.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="九歌牙醫診所" data-manager="遲玉堃" data-address="武陵里東大路2段188號" data-phone="(03)5341616">
+                <header>
+                    <h2><a href="clinics/clinic-011.html">九歌牙醫診所</a></h2>
+                    <p class="manager">負責人：遲玉堃</p>
+                </header>
+                <p class="address">地址：武陵里東大路2段188號</p>
+                <p class="phone">電話：(03)5341616</p>
+                <a class="cta" href="clinics/clinic-011.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="銘燦牙醫診所" data-manager="陳銘燦" data-address="北大路１６0號一樓" data-phone="(03)5322345">
+                <header>
+                    <h2><a href="clinics/clinic-012.html">銘燦牙醫診所</a></h2>
+                    <p class="manager">負責人：陳銘燦</p>
+                </header>
+                <p class="address">地址：北大路１６0號一樓</p>
+                <p class="phone">電話：(03)5322345</p>
+                <a class="cta" href="clinics/clinic-012.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="創美牙醫診所" data-manager="藍鴻文" data-address="客雅里經國路二段543號" data-phone="(03)5285335">
+                <header>
+                    <h2><a href="clinics/clinic-013.html">創美牙醫診所</a></h2>
+                    <p class="manager">負責人：藍鴻文</p>
+                </header>
+                <p class="address">地址：客雅里經國路二段543號</p>
+                <p class="phone">電話：(03)5285335</p>
+                <a class="cta" href="clinics/clinic-013.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="博暘牙醫診所" data-manager="麥正賢" data-address="中正路３８６號" data-phone="(03)5356805">
+                <header>
+                    <h2><a href="clinics/clinic-014.html">博暘牙醫診所</a></h2>
+                    <p class="manager">負責人：麥正賢</p>
+                </header>
+                <p class="address">地址：中正路３８６號</p>
+                <p class="phone">電話：(03)5356805</p>
+                <a class="cta" href="clinics/clinic-014.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="康橋牙醫診所" data-manager="吳令琪" data-address="光華一街10號" data-phone="(03)5339722">
+                <header>
+                    <h2><a href="clinics/clinic-015.html">康橋牙醫診所</a></h2>
+                    <p class="manager">負責人：吳令琪</p>
+                </header>
+                <p class="address">地址：光華一街10號</p>
+                <p class="phone">電話：(03)5339722</p>
+                <a class="cta" href="clinics/clinic-015.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="琉璃光牙醫診所" data-manager="蘇東隆" data-address="新民里北大路256號1樓" data-phone="(03)5222131">
+                <header>
+                    <h2><a href="clinics/clinic-016.html">琉璃光牙醫診所</a></h2>
+                    <p class="manager">負責人：蘇東隆</p>
+                </header>
+                <p class="address">地址：新民里北大路256號1樓</p>
+                <p class="phone">電話：(03)5222131</p>
+                <a class="cta" href="clinics/clinic-016.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="安定牙醫診所" data-manager="胡世輝" data-address="金竹里金竹路150號" data-phone="(03)5314307">
+                <header>
+                    <h2><a href="clinics/clinic-017.html">安定牙醫診所</a></h2>
+                    <p class="manager">負責人：胡世輝</p>
+                </header>
+                <p class="address">地址：金竹里金竹路150號</p>
+                <p class="phone">電話：(03)5314307</p>
+                <a class="cta" href="clinics/clinic-017.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="光華牙醫診所" data-manager="陳淑純" data-address="光華一街60號" data-phone="(03)5312420">
+                <header>
+                    <h2><a href="clinics/clinic-018.html">光華牙醫診所</a></h2>
+                    <p class="manager">負責人：陳淑純</p>
+                </header>
+                <p class="address">地址：光華一街60號</p>
+                <p class="phone">電話：(03)5312420</p>
+                <a class="cta" href="clinics/clinic-018.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="永川牙醫診所" data-manager="陳尚文" data-address="光華南街54之2號1樓" data-phone="(03)5326326">
+                <header>
+                    <h2><a href="clinics/clinic-019.html">永川牙醫診所</a></h2>
+                    <p class="manager">負責人：陳尚文</p>
+                </header>
+                <p class="address">地址：光華南街54之2號1樓</p>
+                <p class="phone">電話：(03)5326326</p>
+                <a class="cta" href="clinics/clinic-019.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="謝牙醫診所" data-manager="謝東榮" data-address="城北街一三九號" data-phone="(03)5439395">
+                <header>
+                    <h2><a href="clinics/clinic-020.html">謝牙醫診所</a></h2>
+                    <p class="manager">負責人：謝東榮</p>
+                </header>
+                <p class="address">地址：城北街一三九號</p>
+                <p class="phone">電話：(03)5439395</p>
+                <a class="cta" href="clinics/clinic-020.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="全家牙醫診所" data-manager="林語" data-address="武陵里武陵路73巷6號1樓" data-phone="(03)5409188">
+                <header>
+                    <h2><a href="clinics/clinic-021.html">全家牙醫診所</a></h2>
+                    <p class="manager">負責人：林語</p>
+                </header>
+                <p class="address">地址：武陵里武陵路73巷6號1樓</p>
+                <p class="phone">電話：(03)5409188</p>
+                <a class="cta" href="clinics/clinic-021.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="雅緻生活牙醫診所" data-manager="林裕斌" data-address="光田里水田街51號1樓、2樓" data-phone="(03)5356505">
+                <header>
+                    <h2><a href="clinics/clinic-022.html">雅緻生活牙醫診所</a></h2>
+                    <p class="manager">負責人：林裕斌</p>
+                </header>
+                <p class="address">地址：光田里水田街51號1樓、2樓</p>
+                <p class="phone">電話：(03)5356505</p>
+                <a class="cta" href="clinics/clinic-022.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="馨典牙醫診所" data-manager="何宜威" data-address="北門里民富街39號、41號" data-phone="(03)5251977">
+                <header>
+                    <h2><a href="clinics/clinic-023.html">馨典牙醫診所</a></h2>
+                    <p class="manager">負責人：何宜威</p>
+                </header>
+                <p class="address">地址：北門里民富街39號、41號</p>
+                <p class="phone">電話：(03)5251977</p>
+                <a class="cta" href="clinics/clinic-023.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="陳清龍牙醫診所" data-manager="陳清龍" data-address="中山路183號" data-phone="(03)5220899">
+                <header>
+                    <h2><a href="clinics/clinic-024.html">陳清龍牙醫診所</a></h2>
+                    <p class="manager">負責人：陳清龍</p>
+                </header>
+                <p class="address">地址：中山路183號</p>
+                <p class="phone">電話：(03)5220899</p>
+                <a class="cta" href="clinics/clinic-024.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="懷仁牙醫診所" data-manager="林懷仁" data-address="磐石路３５號" data-phone="(03)5268510">
+                <header>
+                    <h2><a href="clinics/clinic-025.html">懷仁牙醫診所</a></h2>
+                    <p class="manager">負責人：林懷仁</p>
+                </header>
+                <p class="address">地址：磐石路３５號</p>
+                <p class="phone">電話：(03)5268510</p>
+                <a class="cta" href="clinics/clinic-025.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="東大牙醫診所" data-manager="李榮泉" data-address="東大路２段３６５號" data-phone="(03)5312087">
+                <header>
+                    <h2><a href="clinics/clinic-026.html">東大牙醫診所</a></h2>
+                    <p class="manager">負責人：李榮泉</p>
+                </header>
+                <p class="address">地址：東大路２段３６５號</p>
+                <p class="phone">電話：(03)5312087</p>
+                <a class="cta" href="clinics/clinic-026.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="仁德牙醫診所" data-manager="蕭文學" data-address="西大路４７３號" data-phone="(03)5265556">
+                <header>
+                    <h2><a href="clinics/clinic-027.html">仁德牙醫診所</a></h2>
+                    <p class="manager">負責人：蕭文學</p>
+                </header>
+                <p class="address">地址：西大路４７３號</p>
+                <p class="phone">電話：(03)5265556</p>
+                <a class="cta" href="clinics/clinic-027.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="東濟牙醫診所" data-manager="何卓殷" data-address="湳雅街2-5號" data-phone="(03)5349277">
+                <header>
+                    <h2><a href="clinics/clinic-028.html">東濟牙醫診所</a></h2>
+                    <p class="manager">負責人：何卓殷</p>
+                </header>
+                <p class="address">地址：湳雅街2-5號</p>
+                <p class="phone">電話：(03)5349277</p>
+                <a class="cta" href="clinics/clinic-028.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="新捷牙醫診所" data-manager="胡正庸" data-address="水田街２１號" data-phone="(03)5313190">
+                <header>
+                    <h2><a href="clinics/clinic-029.html">新捷牙醫診所</a></h2>
+                    <p class="manager">負責人：胡正庸</p>
+                </header>
+                <p class="address">地址：水田街２１號</p>
+                <p class="phone">電話：(03)5313190</p>
+                <a class="cta" href="clinics/clinic-029.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="王牙醫診所" data-manager="王黃政" data-address="中山路２２號２Ｆ" data-phone="(03)5248922">
+                <header>
+                    <h2><a href="clinics/clinic-030.html">王牙醫診所</a></h2>
+                    <p class="manager">負責人：王黃政</p>
+                </header>
+                <p class="address">地址：中山路２２號２Ｆ</p>
+                <p class="phone">電話：(03)5248922</p>
+                <a class="cta" href="clinics/clinic-030.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="冠傑牙醫診所" data-manager="田怡君" data-address="林森路二五三號三樓" data-phone="(03)5238635">
+                <header>
+                    <h2><a href="clinics/clinic-031.html">冠傑牙醫診所</a></h2>
+                    <p class="manager">負責人：田怡君</p>
+                </header>
+                <p class="address">地址：林森路二五三號三樓</p>
+                <p class="phone">電話：(03)5238635</p>
+                <a class="cta" href="clinics/clinic-031.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="譚牙醫診所" data-manager="譚顯崑" data-address="武陵路2號" data-phone="(03)5333142">
+                <header>
+                    <h2><a href="clinics/clinic-032.html">譚牙醫診所</a></h2>
+                    <p class="manager">負責人：譚顯崑</p>
+                </header>
+                <p class="address">地址：武陵路2號</p>
+                <p class="phone">電話：(03)5333142</p>
+                <a class="cta" href="clinics/clinic-032.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="黃建群牙醫診所" data-manager="黃建群" data-address="中華路三段28號" data-phone="(03)5259939">
+                <header>
+                    <h2><a href="clinics/clinic-033.html">黃建群牙醫診所</a></h2>
+                    <p class="manager">負責人：黃建群</p>
+                </header>
+                <p class="address">地址：中華路三段28號</p>
+                <p class="phone">電話：(03)5259939</p>
+                <a class="cta" href="clinics/clinic-033.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="潔明牙醫診所" data-manager="郭柏麟" data-address="西門街６２號" data-phone="(03)5250227">
+                <header>
+                    <h2><a href="clinics/clinic-034.html">潔明牙醫診所</a></h2>
+                    <p class="manager">負責人：郭柏麟</p>
+                </header>
+                <p class="address">地址：西門街６２號</p>
+                <p class="phone">電話：(03)5250227</p>
+                <a class="cta" href="clinics/clinic-034.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="雅群牙醫診所" data-manager="溫鈺雅" data-address="水田街134號1樓" data-phone="(03)5153492">
+                <header>
+                    <h2><a href="clinics/clinic-035.html">雅群牙醫診所</a></h2>
+                    <p class="manager">負責人：溫鈺雅</p>
+                </header>
+                <p class="address">地址：水田街134號1樓</p>
+                <p class="phone">電話：(03)5153492</p>
+                <a class="cta" href="clinics/clinic-035.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="傑霖牙醫診所" data-manager="許文傑" data-address="西大路634號" data-phone="(03)5265995">
+                <header>
+                    <h2><a href="clinics/clinic-036.html">傑霖牙醫診所</a></h2>
+                    <p class="manager">負責人：許文傑</p>
+                </header>
+                <p class="address">地址：西大路634號</p>
+                <p class="phone">電話：(03)5265995</p>
+                <a class="cta" href="clinics/clinic-036.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="榮浩牙醫診所" data-manager="鄭榮浩" data-address="武陵路一五三號" data-phone="(03)5335838">
+                <header>
+                    <h2><a href="clinics/clinic-037.html">榮浩牙醫診所</a></h2>
+                    <p class="manager">負責人：鄭榮浩</p>
+                </header>
+                <p class="address">地址：武陵路一五三號</p>
+                <p class="phone">電話：(03)5335838</p>
+                <a class="cta" href="clinics/clinic-037.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="陽明牙醫診所" data-manager="吳學孟" data-address="民富街２７號" data-phone="(03)5282386">
+                <header>
+                    <h2><a href="clinics/clinic-038.html">陽明牙醫診所</a></h2>
+                    <p class="manager">負責人：吳學孟</p>
+                </header>
+                <p class="address">地址：民富街２７號</p>
+                <p class="phone">電話：(03)5282386</p>
+                <a class="cta" href="clinics/clinic-038.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="翰霖牙醫診所" data-manager="郭珊珊" data-address="西大路710號" data-phone="(03)5356930">
+                <header>
+                    <h2><a href="clinics/clinic-039.html">翰霖牙醫診所</a></h2>
+                    <p class="manager">負責人：郭珊珊</p>
+                </header>
+                <p class="address">地址：西大路710號</p>
+                <p class="phone">電話：(03)5356930</p>
+                <a class="cta" href="clinics/clinic-039.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="游牙醫診所" data-manager="游振宗" data-address="四維路４5號" data-phone="(03)5238158">
+                <header>
+                    <h2><a href="clinics/clinic-040.html">游牙醫診所</a></h2>
+                    <p class="manager">負責人：游振宗</p>
+                </header>
+                <p class="address">地址：四維路４5號</p>
+                <p class="phone">電話：(03)5238158</p>
+                <a class="cta" href="clinics/clinic-040.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="江牙醫診所" data-manager="江淑媛" data-address="中山路２５３號" data-phone="(03)5223450">
+                <header>
+                    <h2><a href="clinics/clinic-041.html">江牙醫診所</a></h2>
+                    <p class="manager">負責人：江淑媛</p>
+                </header>
+                <p class="address">地址：中山路２５３號</p>
+                <p class="phone">電話：(03)5223450</p>
+                <a class="cta" href="clinics/clinic-041.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="懷恩牙醫診所" data-manager="張誌珊" data-address="潛園里北大路325號" data-phone="(03)5261357">
+                <header>
+                    <h2><a href="clinics/clinic-042.html">懷恩牙醫診所</a></h2>
+                    <p class="manager">負責人：張誌珊</p>
+                </header>
+                <p class="address">地址：潛園里北大路325號</p>
+                <p class="phone">電話：(03)5261357</p>
+                <a class="cta" href="clinics/clinic-042.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="吳慧琳牙醫診所" data-manager="吳慧琳" data-address="經國路一段３２９號１樓" data-phone="(03)5319264">
+                <header>
+                    <h2><a href="clinics/clinic-043.html">吳慧琳牙醫診所</a></h2>
+                    <p class="manager">負責人：吳慧琳</p>
+                </header>
+                <p class="address">地址：經國路一段３２９號１樓</p>
+                <p class="phone">電話：(03)5319264</p>
+                <a class="cta" href="clinics/clinic-043.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="東寧牙醫診所" data-manager="曾敬庭" data-address="大同里中央路89、91號第一層" data-phone="(03)5260768">
+                <header>
+                    <h2><a href="clinics/clinic-044.html">東寧牙醫診所</a></h2>
+                    <p class="manager">負責人：曾敬庭</p>
+                </header>
+                <p class="address">地址：大同里中央路89、91號第一層</p>
+                <p class="phone">電話：(03)5260768</p>
+                <a class="cta" href="clinics/clinic-044.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="許牙醫診所" data-manager="許再添" data-address="中山路２１１號" data-phone="(03)5241661">
+                <header>
+                    <h2><a href="clinics/clinic-045.html">許牙醫診所</a></h2>
+                    <p class="manager">負責人：許再添</p>
+                </header>
+                <p class="address">地址：中山路２１１號</p>
+                <p class="phone">電話：(03)5241661</p>
+                <a class="cta" href="clinics/clinic-045.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="陳牙醫診所" data-manager="陳奕炘" data-address="北大路２３９巷１號" data-phone="(03)5234528">
+                <header>
+                    <h2><a href="clinics/clinic-046.html">陳牙醫診所</a></h2>
+                    <p class="manager">負責人：陳奕炘</p>
+                </header>
+                <p class="address">地址：北大路２３９巷１號</p>
+                <p class="phone">電話：(03)5234528</p>
+                <a class="cta" href="clinics/clinic-046.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="朝春牙醫診所" data-manager="葉育敏" data-address="內湖路49號" data-phone="(03)5377103">
+                <header>
+                    <h2><a href="clinics/clinic-047.html">朝春牙醫診所</a></h2>
+                    <p class="manager">負責人：葉育敏</p>
+                </header>
+                <p class="address">地址：內湖路49號</p>
+                <p class="phone">電話：(03)5377103</p>
+                <a class="cta" href="clinics/clinic-047.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="深潭牙醫診所" data-manager="吳永尚" data-address="牛埔路４４０號" data-phone="(03)5388420">
+                <header>
+                    <h2><a href="clinics/clinic-048.html">深潭牙醫診所</a></h2>
+                    <p class="manager">負責人：吳永尚</p>
+                </header>
+                <p class="address">地址：牛埔路４４０號</p>
+                <p class="phone">電話：(03)5388420</p>
+                <a class="cta" href="clinics/clinic-048.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="永志牙醫診所" data-manager="吳永志" data-address="牛埔路４３７號" data-phone="(03)5387553">
+                <header>
+                    <h2><a href="clinics/clinic-049.html">永志牙醫診所</a></h2>
+                    <p class="manager">負責人：吳永志</p>
+                </header>
+                <p class="address">地址：牛埔路４３７號</p>
+                <p class="phone">電話：(03)5387553</p>
+                <a class="cta" href="clinics/clinic-049.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="香杉牙醫診所" data-manager="秦偉庭" data-address="香山里大庄路130號1-2樓及132號1-2樓" data-phone="(03)5397268">
+                <header>
+                    <h2><a href="clinics/clinic-050.html">香杉牙醫診所</a></h2>
+                    <p class="manager">負責人：秦偉庭</p>
+                </header>
+                <p class="address">地址：香山里大庄路130號1-2樓及132號1-2樓</p>
+                <p class="phone">電話：(03)5397268</p>
+                <a class="cta" href="clinics/clinic-050.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="宏揚牙醫診所" data-manager="周豐智" data-address="東光路200號1樓" data-phone="(03)5710189">
+                <header>
+                    <h2><a href="clinics/clinic-051.html">宏揚牙醫診所</a></h2>
+                    <p class="manager">負責人：周豐智</p>
+                </header>
+                <p class="address">地址：東光路200號1樓</p>
+                <p class="phone">電話：(03)5710189</p>
+                <a class="cta" href="clinics/clinic-051.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="誠品牙醫診所" data-manager="陳姮希" data-address="南大里西大路91號1樓" data-phone="(03)5618686">
+                <header>
+                    <h2><a href="clinics/clinic-052.html">誠品牙醫診所</a></h2>
+                    <p class="manager">負責人：陳姮希</p>
+                </header>
+                <p class="address">地址：南大里西大路91號1樓</p>
+                <p class="phone">電話：(03)5618686</p>
+                <a class="cta" href="clinics/clinic-052.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="晨光牙醫診所" data-manager="楊國暐" data-address="公園里公園路286號1樓" data-phone="(03)5610905">
+                <header>
+                    <h2><a href="clinics/clinic-053.html">晨光牙醫診所</a></h2>
+                    <p class="manager">負責人：楊國暐</p>
+                </header>
+                <p class="address">地址：公園里公園路286號1樓</p>
+                <p class="phone">電話：(03)5610905</p>
+                <a class="cta" href="clinics/clinic-053.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="寓光牙醫診所" data-manager="徐孟駒" data-address="新莊里關新北路155號" data-phone="(03)6667756">
+                <header>
+                    <h2><a href="clinics/clinic-054.html">寓光牙醫診所</a></h2>
+                    <p class="manager">負責人：徐孟駒</p>
+                </header>
+                <p class="address">地址：新莊里關新北路155號</p>
+                <p class="phone">電話：(03)6667756</p>
+                <a class="cta" href="clinics/clinic-054.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="全美牙醫診所" data-manager="何政璋" data-address="振興里南大路586號" data-phone="(03)5620119">
+                <header>
+                    <h2><a href="clinics/clinic-055.html">全美牙醫診所</a></h2>
+                    <p class="manager">負責人：何政璋</p>
+                </header>
+                <p class="address">地址：振興里南大路586號</p>
+                <p class="phone">電話：(03)5620119</p>
+                <a class="cta" href="clinics/clinic-055.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="心勤美學牙醫診所" data-manager="林士桓" data-address="埔頂里埔頂二路99號1-2樓" data-phone="(03)6669898">
+                <header>
+                    <h2><a href="clinics/clinic-056.html">心勤美學牙醫診所</a></h2>
+                    <p class="manager">負責人：林士桓</p>
+                </header>
+                <p class="address">地址：埔頂里埔頂二路99號1-2樓</p>
+                <p class="phone">電話：(03)6669898</p>
+                <a class="cta" href="clinics/clinic-056.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="恩澄牙醫診所" data-manager="吳兆鴻" data-address="關新里光復路一段362-9號1-2樓" data-phone="(03)6686764">
+                <header>
+                    <h2><a href="clinics/clinic-057.html">恩澄牙醫診所</a></h2>
+                    <p class="manager">負責人：吳兆鴻</p>
+                </header>
+                <p class="address">地址：關新里光復路一段362-9號1-2樓</p>
+                <p class="phone">電話：(03)6686764</p>
+                <a class="cta" href="clinics/clinic-057.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="怡櫟牙醫診所" data-manager="陳長佑" data-address="東新路1號1樓" data-phone="(03)5750869">
+                <header>
+                    <h2><a href="clinics/clinic-058.html">怡櫟牙醫診所</a></h2>
+                    <p class="manager">負責人：陳長佑</p>
+                </header>
+                <p class="address">地址：東新路1號1樓</p>
+                <p class="phone">電話：(03)5750869</p>
+                <a class="cta" href="clinics/clinic-058.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="明悅精品牙醫診所" data-manager="李湘晴" data-address="中央路214號1-2樓" data-phone="(03)5331586">
+                <header>
+                    <h2><a href="clinics/clinic-059.html">明悅精品牙醫診所</a></h2>
+                    <p class="manager">負責人：李湘晴</p>
+                </header>
+                <p class="address">地址：中央路214號1-2樓</p>
+                <p class="phone">電話：(03)5331586</p>
+                <a class="cta" href="clinics/clinic-059.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="朱育正牙醫診所" data-manager="朱育正" data-address="復中里中央路219號1-2樓" data-phone="(03)5436999">
+                <header>
+                    <h2><a href="clinics/clinic-060.html">朱育正牙醫診所</a></h2>
+                    <p class="manager">負責人：朱育正</p>
+                </header>
+                <p class="address">地址：復中里中央路219號1-2樓</p>
+                <p class="phone">電話：(03)5436999</p>
+                <a class="cta" href="clinics/clinic-060.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="倨誠牙醫診所" data-manager="韓伊淳" data-address="三民里民族路117號1-2樓" data-phone="(03)5358866">
+                <header>
+                    <h2><a href="clinics/clinic-061.html">倨誠牙醫診所</a></h2>
+                    <p class="manager">負責人：韓伊淳</p>
+                </header>
+                <p class="address">地址：三民里民族路117號1-2樓</p>
+                <p class="phone">電話：(03)5358866</p>
+                <a class="cta" href="clinics/clinic-061.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="皓齊牙醫診所" data-manager="王廸崴" data-address="新興里南大路397號1-2樓" data-phone="(03)5621009">
+                <header>
+                    <h2><a href="clinics/clinic-062.html">皓齊牙醫診所</a></h2>
+                    <p class="manager">負責人：王廸崴</p>
+                </header>
+                <p class="address">地址：新興里南大路397號1-2樓</p>
+                <p class="phone">電話：(03)5621009</p>
+                <a class="cta" href="clinics/clinic-062.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="和毅牙醫診所" data-manager="吳和泰" data-address="南市里林森路149號1、2樓" data-phone="(03)5228866">
+                <header>
+                    <h2><a href="clinics/clinic-063.html">和毅牙醫診所</a></h2>
+                    <p class="manager">負責人：吳和泰</p>
+                </header>
+                <p class="address">地址：南市里林森路149號1、2樓</p>
+                <p class="phone">電話：(03)5228866</p>
+                <a class="cta" href="clinics/clinic-063.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="園區牙醫診所" data-manager="鄭宇芯" data-address="仙水里光復路一段307號1樓" data-phone="(03)5783712">
+                <header>
+                    <h2><a href="clinics/clinic-064.html">園區牙醫診所</a></h2>
+                    <p class="manager">負責人：鄭宇芯</p>
+                </header>
+                <p class="address">地址：仙水里光復路一段307號1樓</p>
+                <p class="phone">電話：(03)5783712</p>
+                <a class="cta" href="clinics/clinic-064.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="晶華牙醫診所" data-manager="辜柏誠" data-address="科園里科學園區力行六路8號3樓317C室" data-phone="(03)5779577">
+                <header>
+                    <h2><a href="clinics/clinic-065.html">晶華牙醫診所</a></h2>
+                    <p class="manager">負責人：辜柏誠</p>
+                </header>
+                <p class="address">地址：科園里科學園區力行六路8號3樓317C室</p>
+                <p class="phone">電話：(03)5779577</p>
+                <a class="cta" href="clinics/clinic-065.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="品御牙醫診所" data-manager="李俊瑩" data-address="東園里八德路162號1樓" data-phone="(03)5725557">
+                <header>
+                    <h2><a href="clinics/clinic-066.html">品御牙醫診所</a></h2>
+                    <p class="manager">負責人：李俊瑩</p>
+                </header>
+                <p class="address">地址：東園里八德路162號1樓</p>
+                <p class="phone">電話：(03)5725557</p>
+                <a class="cta" href="clinics/clinic-066.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="京典牙醫診所" data-manager="吳易霖" data-address="金山里金山十一街19號1樓" data-phone="(03)6663888">
+                <header>
+                    <h2><a href="clinics/clinic-067.html">京典牙醫診所</a></h2>
+                    <p class="manager">負責人：吳易霖</p>
+                </header>
+                <p class="address">地址：金山里金山十一街19號1樓</p>
+                <p class="phone">電話：(03)6663888</p>
+                <a class="cta" href="clinics/clinic-067.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="日光翡麗牙醫診所" data-manager="馬瑞宏" data-address="關新里關新路65號" data-phone="(03)5678699">
+                <header>
+                    <h2><a href="clinics/clinic-068.html">日光翡麗牙醫診所</a></h2>
+                    <p class="manager">負責人：馬瑞宏</p>
+                </header>
+                <p class="address">地址：關新里關新路65號</p>
+                <p class="phone">電話：(03)5678699</p>
+                <a class="cta" href="clinics/clinic-068.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="紐約牙醫診所" data-manager="許祥威" data-address="文華里民生路309號2F" data-phone="(03)5152206">
+                <header>
+                    <h2><a href="clinics/clinic-069.html">紐約牙醫診所</a></h2>
+                    <p class="manager">負責人：許祥威</p>
+                </header>
+                <p class="address">地址：文華里民生路309號2F</p>
+                <p class="phone">電話：(03)5152206</p>
+                <a class="cta" href="clinics/clinic-069.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="寶傑美學牙醫診所" data-manager="李寶傑" data-address="福德里中華路二段702號1～2樓" data-phone="(03)5280377">
+                <header>
+                    <h2><a href="clinics/clinic-070.html">寶傑美學牙醫診所</a></h2>
+                    <p class="manager">負責人：李寶傑</p>
+                </header>
+                <p class="address">地址：福德里中華路二段702號1～2樓</p>
+                <p class="phone">電話：(03)5280377</p>
+                <a class="cta" href="clinics/clinic-070.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="森源牙醫診所" data-manager="林森田" data-address="綠水里光復路二段261號1、2樓" data-phone="(03)5728088">
+                <header>
+                    <h2><a href="clinics/clinic-071.html">森源牙醫診所</a></h2>
+                    <p class="manager">負責人：林森田</p>
+                </header>
+                <p class="address">地址：綠水里光復路二段261號1、2樓</p>
+                <p class="phone">電話：(03)5728088</p>
+                <a class="cta" href="clinics/clinic-071.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="意康牙醫診所" data-manager="王啟得" data-address="仙水里光復路一段331-2號" data-phone="(03)6663232">
+                <header>
+                    <h2><a href="clinics/clinic-072.html">意康牙醫診所</a></h2>
+                    <p class="manager">負責人：王啟得</p>
+                </header>
+                <p class="address">地址：仙水里光復路一段331-2號</p>
+                <p class="phone">電話：(03)6663232</p>
+                <a class="cta" href="clinics/clinic-072.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="金牛頓牙醫診所" data-manager="蘇筌瑋" data-address="豐功里建功一路176號、178號" data-phone="(03)5733896">
+                <header>
+                    <h2><a href="clinics/clinic-073.html">金牛頓牙醫診所</a></h2>
+                    <p class="manager">負責人：蘇筌瑋</p>
+                </header>
+                <p class="address">地址：豐功里建功一路176號、178號</p>
+                <p class="phone">電話：(03)5733896</p>
+                <a class="cta" href="clinics/clinic-073.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="關新牙醫診所" data-manager="卓聯宇" data-address="新莊里關新東路356號" data-phone="(03)5770607">
+                <header>
+                    <h2><a href="clinics/clinic-074.html">關新牙醫診所</a></h2>
+                    <p class="manager">負責人：卓聯宇</p>
+                </header>
+                <p class="address">地址：新莊里關新東路356號</p>
+                <p class="phone">電話：(03)5770607</p>
+                <a class="cta" href="clinics/clinic-074.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="東門牙醫診所" data-manager="劉騰文" data-address="榮光里東門街67號1樓" data-phone="(03)5281250">
+                <header>
+                    <h2><a href="clinics/clinic-075.html">東門牙醫診所</a></h2>
+                    <p class="manager">負責人：劉騰文</p>
+                </header>
+                <p class="address">地址：榮光里東門街67號1樓</p>
+                <p class="phone">電話：(03)5281250</p>
+                <a class="cta" href="clinics/clinic-075.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="筑心筑美牙醫診所" data-manager="莊涵芝" data-address="關新東路280號1-2樓" data-phone="(03)5782168">
+                <header>
+                    <h2><a href="clinics/clinic-076.html">筑心筑美牙醫診所</a></h2>
+                    <p class="manager">負責人：莊涵芝</p>
+                </header>
+                <p class="address">地址：關新東路280號1-2樓</p>
+                <p class="phone">電話：(03)5782168</p>
+                <a class="cta" href="clinics/clinic-076.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="嶺先牙醫診所" data-manager="張倩瑜" data-address="關新里關新路225號3樓" data-phone="(03)5679312">
+                <header>
+                    <h2><a href="clinics/clinic-077.html">嶺先牙醫診所</a></h2>
+                    <p class="manager">負責人：張倩瑜</p>
+                </header>
+                <p class="address">地址：關新里關新路225號3樓</p>
+                <p class="phone">電話：(03)5679312</p>
+                <a class="cta" href="clinics/clinic-077.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="天晴牙醫診所" data-manager="王勳甲" data-address="龍山里慈濟路206號1樓" data-phone="(03)5775206">
+                <header>
+                    <h2><a href="clinics/clinic-078.html">天晴牙醫診所</a></h2>
+                    <p class="manager">負責人：王勳甲</p>
+                </header>
+                <p class="address">地址：龍山里慈濟路206號1樓</p>
+                <p class="phone">電話：(03)5775206</p>
+                <a class="cta" href="clinics/clinic-078.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="杏明牙醫診所" data-manager="陳安絹" data-address="仙宮里高翠路101號2樓" data-phone="(03)6668918">
+                <header>
+                    <h2><a href="clinics/clinic-079.html">杏明牙醫診所</a></h2>
+                    <p class="manager">負責人：陳安絹</p>
+                </header>
+                <p class="address">地址：仙宮里高翠路101號2樓</p>
+                <p class="phone">電話：(03)6668918</p>
+                <a class="cta" href="clinics/clinic-079.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="銘仁牙醫診所" data-manager="熊士強" data-address="林森路6號1樓及2樓" data-phone="(03)5255238">
+                <header>
+                    <h2><a href="clinics/clinic-080.html">銘仁牙醫診所</a></h2>
+                    <p class="manager">負責人：熊士強</p>
+                </header>
+                <p class="address">地址：林森路6號1樓及2樓</p>
+                <p class="phone">電話：(03)5255238</p>
+                <a class="cta" href="clinics/clinic-080.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="永霖牙醫診所" data-manager="陳瑞陽" data-address="南門街16號" data-phone="(03)5246303">
+                <header>
+                    <h2><a href="clinics/clinic-081.html">永霖牙醫診所</a></h2>
+                    <p class="manager">負責人：陳瑞陽</p>
+                </header>
+                <p class="address">地址：南門街16號</p>
+                <p class="phone">電話：(03)5246303</p>
+                <a class="cta" href="clinics/clinic-081.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="品味牙醫診所" data-manager="郭彥君" data-address="金山街138號1-3樓" data-phone="(03)6662299">
+                <header>
+                    <h2><a href="clinics/clinic-082.html">品味牙醫診所</a></h2>
+                    <p class="manager">負責人：郭彥君</p>
+                </header>
+                <p class="address">地址：金山街138號1-3樓</p>
+                <p class="phone">電話：(03)6662299</p>
+                <a class="cta" href="clinics/clinic-082.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="小城堡牙醫診所" data-manager="吳佩蓁" data-address="復興里經國路一段379巷36號1樓" data-phone="(03)5351855">
+                <header>
+                    <h2><a href="clinics/clinic-083.html">小城堡牙醫診所</a></h2>
+                    <p class="manager">負責人：吳佩蓁</p>
+                </header>
+                <p class="address">地址：復興里經國路一段379巷36號1樓</p>
+                <p class="phone">電話：(03)5351855</p>
+                <a class="cta" href="clinics/clinic-083.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="立安牙醫診所" data-manager="許璧娟" data-address="育賢里東門街34巷9號1樓" data-phone="(03)5333025">
+                <header>
+                    <h2><a href="clinics/clinic-084.html">立安牙醫診所</a></h2>
+                    <p class="manager">負責人：許璧娟</p>
+                </header>
+                <p class="address">地址：育賢里東門街34巷9號1樓</p>
+                <p class="phone">電話：(03)5333025</p>
+                <a class="cta" href="clinics/clinic-084.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="森釉牙醫診所" data-manager="林佳勳" data-address="關新東路276號1-2樓" data-phone="(03)5797858">
+                <header>
+                    <h2><a href="clinics/clinic-085.html">森釉牙醫診所</a></h2>
+                    <p class="manager">負責人：林佳勳</p>
+                </header>
+                <p class="address">地址：關新東路276號1-2樓</p>
+                <p class="phone">電話：(03)5797858</p>
+                <a class="cta" href="clinics/clinic-085.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="詠美牙醫診所" data-manager="林東慶" data-address="東園里鐵道路一段18號1樓" data-phone="(03)5351153">
+                <header>
+                    <h2><a href="clinics/clinic-086.html">詠美牙醫診所</a></h2>
+                    <p class="manager">負責人：林東慶</p>
+                </header>
+                <p class="address">地址：東園里鐵道路一段18號1樓</p>
+                <p class="phone">電話：(03)5351153</p>
+                <a class="cta" href="clinics/clinic-086.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="峰皇牙醫診所" data-manager="陳文傑" data-address="榮光里東門街29、31號" data-phone="(03)5243666">
+                <header>
+                    <h2><a href="clinics/clinic-087.html">峰皇牙醫診所</a></h2>
+                    <p class="manager">負責人：陳文傑</p>
+                </header>
+                <p class="address">地址：榮光里東門街29、31號</p>
+                <p class="phone">電話：(03)5243666</p>
+                <a class="cta" href="clinics/clinic-087.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="育賢牙醫診所" data-manager="廖雅惠" data-address="光鎮里南大路830號" data-phone="(03)5621717">
+                <header>
+                    <h2><a href="clinics/clinic-088.html">育賢牙醫診所</a></h2>
+                    <p class="manager">負責人：廖雅惠</p>
+                </header>
+                <p class="address">地址：光鎮里南大路830號</p>
+                <p class="phone">電話：(03)5621717</p>
+                <a class="cta" href="clinics/clinic-088.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="君悅牙醫診所" data-manager="陳俊利" data-address="科園里光復路一段563號1、2樓" data-phone="(03)5787088">
+                <header>
+                    <h2><a href="clinics/clinic-089.html">君悅牙醫診所</a></h2>
+                    <p class="manager">負責人：陳俊利</p>
+                </header>
+                <p class="address">地址：科園里光復路一段563號1、2樓</p>
+                <p class="phone">電話：(03)5787088</p>
+                <a class="cta" href="clinics/clinic-089.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="佳新牙醫診所" data-manager="黃堯堂" data-address="新莊街八十一號" data-phone="(03)5633346">
+                <header>
+                    <h2><a href="clinics/clinic-090.html">佳新牙醫診所</a></h2>
+                    <p class="manager">負責人：黃堯堂</p>
+                </header>
+                <p class="address">地址：新莊街八十一號</p>
+                <p class="phone">電話：(03)5633346</p>
+                <a class="cta" href="clinics/clinic-090.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="美日牙醫診所" data-manager="羅秋美" data-address="東門街二十三、二十五號一、二、三樓" data-phone="(03)5232502">
+                <header>
+                    <h2><a href="clinics/clinic-091.html">美日牙醫診所</a></h2>
+                    <p class="manager">負責人：羅秋美</p>
+                </header>
+                <p class="address">地址：東門街二十三、二十五號一、二、三樓</p>
+                <p class="phone">電話：(03)5232502</p>
+                <a class="cta" href="clinics/clinic-091.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="德陞牙醫診所" data-manager="王昭凱" data-address="光復路一段五○七號一樓" data-phone="(03)5636611">
+                <header>
+                    <h2><a href="clinics/clinic-092.html">德陞牙醫診所</a></h2>
+                    <p class="manager">負責人：王昭凱</p>
+                </header>
+                <p class="address">地址：光復路一段五○七號一樓</p>
+                <p class="phone">電話：(03)5636611</p>
+                <a class="cta" href="clinics/clinic-092.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="達觀牙醫診所" data-manager="郭尚倫" data-address="大同路７－１號二樓" data-phone="(03)5265589">
+                <header>
+                    <h2><a href="clinics/clinic-093.html">達觀牙醫診所</a></h2>
+                    <p class="manager">負責人：郭尚倫</p>
+                </header>
+                <p class="address">地址：大同路７－１號二樓</p>
+                <p class="phone">電話：(03)5265589</p>
+                <a class="cta" href="clinics/clinic-093.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="新美學牙醫診所" data-manager="周郁玫" data-address="新莊里關新路19巷5號" data-phone="(03)6668610">
+                <header>
+                    <h2><a href="clinics/clinic-094.html">新美學牙醫診所</a></h2>
+                    <p class="manager">負責人：周郁玫</p>
+                </header>
+                <p class="address">地址：新莊里關新路19巷5號</p>
+                <p class="phone">電話：(03)6668610</p>
+                <a class="cta" href="clinics/clinic-094.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="惠群牙醫診所" data-manager="溫飛翊" data-address="公園里南大路109號" data-phone="(03)5250037">
+                <header>
+                    <h2><a href="clinics/clinic-095.html">惠群牙醫診所</a></h2>
+                    <p class="manager">負責人：溫飛翊</p>
+                </header>
+                <p class="address">地址：公園里南大路109號</p>
+                <p class="phone">電話：(03)5250037</p>
+                <a class="cta" href="clinics/clinic-095.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="尖端牙醫診所" data-manager="古國鉅" data-address="光復路二段２７２號二樓" data-phone="(03)5714800">
+                <header>
+                    <h2><a href="clinics/clinic-096.html">尖端牙醫診所</a></h2>
+                    <p class="manager">負責人：古國鉅</p>
+                </header>
+                <p class="address">地址：光復路二段２７２號二樓</p>
+                <p class="phone">電話：(03)5714800</p>
+                <a class="cta" href="clinics/clinic-096.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="崇善牙醫診所" data-manager="郭振興" data-address="復中里３鄰錦華街１４號２Ｆ" data-phone="(03)5349447">
+                <header>
+                    <h2><a href="clinics/clinic-097.html">崇善牙醫診所</a></h2>
+                    <p class="manager">負責人：郭振興</p>
+                </header>
+                <p class="address">地址：復中里３鄰錦華街１４號２Ｆ</p>
+                <p class="phone">電話：(03)5349447</p>
+                <a class="cta" href="clinics/clinic-097.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="榮信牙醫診所" data-manager="劉信熹" data-address="光復路一段４７２號三樓之八" data-phone="(03)5781122">
+                <header>
+                    <h2><a href="clinics/clinic-098.html">榮信牙醫診所</a></h2>
+                    <p class="manager">負責人：劉信熹</p>
+                </header>
+                <p class="address">地址：光復路一段４７２號三樓之八</p>
+                <p class="phone">電話：(03)5781122</p>
+                <a class="cta" href="clinics/clinic-098.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="大新牙醫診所" data-manager="楊演杉" data-address="光復路二段３８３號" data-phone="(03)5714371">
+                <header>
+                    <h2><a href="clinics/clinic-099.html">大新牙醫診所</a></h2>
+                    <p class="manager">負責人：楊演杉</p>
+                </header>
+                <p class="address">地址：光復路二段３８３號</p>
+                <p class="phone">電話：(03)5714371</p>
+                <a class="cta" href="clinics/clinic-099.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="安徒生牙醫診所" data-manager="徐玉玲" data-address="武功里建功一路87號" data-phone="(03)5749385">
+                <header>
+                    <h2><a href="clinics/clinic-100.html">安徒生牙醫診所</a></h2>
+                    <p class="manager">負責人：徐玉玲</p>
+                </header>
+                <p class="address">地址：武功里建功一路87號</p>
+                <p class="phone">電話：(03)5749385</p>
+                <a class="cta" href="clinics/clinic-100.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="安心牙醫診所" data-manager="簡英健" data-address="復中里民生路246號1樓" data-phone="(03)5312378">
+                <header>
+                    <h2><a href="clinics/clinic-101.html">安心牙醫診所</a></h2>
+                    <p class="manager">負責人：簡英健</p>
+                </header>
+                <p class="address">地址：復中里民生路246號1樓</p>
+                <p class="phone">電話：(03)5312378</p>
+                <a class="cta" href="clinics/clinic-101.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="尊爵時尚牙醫診所" data-manager="李鎮宇" data-address="豐功里建中路128號1樓及130號1樓" data-phone="(03)5733699">
+                <header>
+                    <h2><a href="clinics/clinic-102.html">尊爵時尚牙醫診所</a></h2>
+                    <p class="manager">負責人：李鎮宇</p>
+                </header>
+                <p class="address">地址：豐功里建中路128號1樓及130號1樓</p>
+                <p class="phone">電話：(03)5733699</p>
+                <a class="cta" href="clinics/clinic-102.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="清新牙醫診所" data-manager="呂玄評" data-address="南門里中華路二段501號1樓" data-phone="(03)5260672">
+                <header>
+                    <h2><a href="clinics/clinic-103.html">清新牙醫診所</a></h2>
+                    <p class="manager">負責人：呂玄評</p>
+                </header>
+                <p class="address">地址：南門里中華路二段501號1樓</p>
+                <p class="phone">電話：(03)5260672</p>
+                <a class="cta" href="clinics/clinic-103.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="禾一牙醫診所" data-manager="潘姿延" data-address="南大里西大路17號、19號1、2樓" data-phone="(03)5611691">
+                <header>
+                    <h2><a href="clinics/clinic-104.html">禾一牙醫診所</a></h2>
+                    <p class="manager">負責人：潘姿延</p>
+                </header>
+                <p class="address">地址：南大里西大路17號、19號1、2樓</p>
+                <p class="phone">電話：(03)5611691</p>
+                <a class="cta" href="clinics/clinic-104.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="明威牙醫診所" data-manager="陳世明" data-address="新莊里關新路19巷31號" data-phone="(03)6667907">
+                <header>
+                    <h2><a href="clinics/clinic-105.html">明威牙醫診所</a></h2>
+                    <p class="manager">負責人：陳世明</p>
+                </header>
+                <p class="address">地址：新莊里關新路19巷31號</p>
+                <p class="phone">電話：(03)6667907</p>
+                <a class="cta" href="clinics/clinic-105.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="普洛牙醫診所" data-manager="張雪芬" data-address="軍功里光復路二段430號1樓" data-phone="(03)5751992">
+                <header>
+                    <h2><a href="clinics/clinic-106.html">普洛牙醫診所</a></h2>
+                    <p class="manager">負責人：張雪芬</p>
+                </header>
+                <p class="address">地址：軍功里光復路二段430號1樓</p>
+                <p class="phone">電話：(03)5751992</p>
+                <a class="cta" href="clinics/clinic-106.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="國喬牙醫診所" data-manager="楊欣達" data-address="光復路二段一七六號" data-phone="(03)5714520">
+                <header>
+                    <h2><a href="clinics/clinic-107.html">國喬牙醫診所</a></h2>
+                    <p class="manager">負責人：楊欣達</p>
+                </header>
+                <p class="address">地址：光復路二段一七六號</p>
+                <p class="phone">電話：(03)5714520</p>
+                <a class="cta" href="clinics/clinic-107.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="敏華牙醫診所" data-manager="王敏權" data-address="新莊里關新路27號3樓之2及3樓之3" data-phone="(03)6686151">
+                <header>
+                    <h2><a href="clinics/clinic-108.html">敏華牙醫診所</a></h2>
+                    <p class="manager">負責人：王敏權</p>
+                </header>
+                <p class="address">地址：新莊里關新路27號3樓之2及3樓之3</p>
+                <p class="phone">電話：(03)6686151</p>
+                <a class="cta" href="clinics/clinic-108.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="敦品牙醫診所" data-manager="宋錦明" data-address="三民里民權路101號1樓" data-phone="(03)5438382">
+                <header>
+                    <h2><a href="clinics/clinic-109.html">敦品牙醫診所</a></h2>
+                    <p class="manager">負責人：宋錦明</p>
+                </header>
+                <p class="address">地址：三民里民權路101號1樓</p>
+                <p class="phone">電話：(03)5438382</p>
+                <a class="cta" href="clinics/clinic-109.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="皇家牙醫診所" data-manager="陳志賢" data-address="中正里中正路93號1樓" data-phone="(03)5223811">
+                <header>
+                    <h2><a href="clinics/clinic-110.html">皇家牙醫診所</a></h2>
+                    <p class="manager">負責人：陳志賢</p>
+                </header>
+                <p class="address">地址：中正里中正路93號1樓</p>
+                <p class="phone">電話：(03)5223811</p>
+                <a class="cta" href="clinics/clinic-110.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="簡牙醫診所" data-manager="簡英俊" data-address="民生路２００號" data-phone="(03)5320790">
+                <header>
+                    <h2><a href="clinics/clinic-111.html">簡牙醫診所</a></h2>
+                    <p class="manager">負責人：簡英俊</p>
+                </header>
+                <p class="address">地址：民生路２００號</p>
+                <p class="phone">電話：(03)5320790</p>
+                <a class="cta" href="clinics/clinic-111.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="上慈牙醫診所" data-manager="劉惠娟" data-address="民族路84-2號" data-phone="(03)5355655">
+                <header>
+                    <h2><a href="clinics/clinic-112.html">上慈牙醫診所</a></h2>
+                    <p class="manager">負責人：劉惠娟</p>
+                </header>
+                <p class="address">地址：民族路84-2號</p>
+                <p class="phone">電話：(03)5355655</p>
+                <a class="cta" href="clinics/clinic-112.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="孫牙醫診所" data-manager="孫文郁" data-address="西大路３７６號" data-phone="(03)5241665">
+                <header>
+                    <h2><a href="clinics/clinic-113.html">孫牙醫診所</a></h2>
+                    <p class="manager">負責人：孫文郁</p>
+                </header>
+                <p class="address">地址：西大路３７６號</p>
+                <p class="phone">電話：(03)5241665</p>
+                <a class="cta" href="clinics/clinic-113.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="宏昌牙醫診所" data-manager="許瑞宏" data-address="中央路１４４號１樓" data-phone="(03)5324237">
+                <header>
+                    <h2><a href="clinics/clinic-114.html">宏昌牙醫診所</a></h2>
+                    <p class="manager">負責人：許瑞宏</p>
+                </header>
+                <p class="address">地址：中央路１４４號１樓</p>
+                <p class="phone">電話：(03)5324237</p>
+                <a class="cta" href="clinics/clinic-114.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="蔡牙醫診所" data-manager="蔡國明" data-address="民權路５９號" data-phone="(03)5323636">
+                <header>
+                    <h2><a href="clinics/clinic-115.html">蔡牙醫診所</a></h2>
+                    <p class="manager">負責人：蔡國明</p>
+                </header>
+                <p class="address">地址：民權路５９號</p>
+                <p class="phone">電話：(03)5323636</p>
+                <a class="cta" href="clinics/clinic-115.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="大學牙醫診所" data-manager="施幸美" data-address="光復路二段４３４號" data-phone="(03)5720909">
+                <header>
+                    <h2><a href="clinics/clinic-116.html">大學牙醫診所</a></h2>
+                    <p class="manager">負責人：施幸美</p>
+                </header>
+                <p class="address">地址：光復路二段４３４號</p>
+                <p class="phone">電話：(03)5720909</p>
+                <a class="cta" href="clinics/clinic-116.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="康齡牙醫診所" data-manager="高翔鵬" data-address="光復路二段222號" data-phone="(03)5753033">
+                <header>
+                    <h2><a href="clinics/clinic-117.html">康齡牙醫診所</a></h2>
+                    <p class="manager">負責人：高翔鵬</p>
+                </header>
+                <p class="address">地址：光復路二段222號</p>
+                <p class="phone">電話：(03)5753033</p>
+                <a class="cta" href="clinics/clinic-117.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="耕心牙醫診所" data-manager="羅明灃" data-address="光復路二段380號二樓" data-phone="(03)5727139">
+                <header>
+                    <h2><a href="clinics/clinic-118.html">耕心牙醫診所</a></h2>
+                    <p class="manager">負責人：羅明灃</p>
+                </header>
+                <p class="address">地址：光復路二段380號二樓</p>
+                <p class="phone">電話：(03)5727139</p>
+                <a class="cta" href="clinics/clinic-118.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="貝多芬牙醫診所" data-manager="張慧男" data-address="建功一路59巷6號" data-phone="(03)5749567">
+                <header>
+                    <h2><a href="clinics/clinic-119.html">貝多芬牙醫診所</a></h2>
+                    <p class="manager">負責人：張慧男</p>
+                </header>
+                <p class="address">地址：建功一路59巷6號</p>
+                <p class="phone">電話：(03)5749567</p>
+                <a class="cta" href="clinics/clinic-119.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="關東橋仁美牙醫診所" data-manager="施性平" data-address="西大路165號1F" data-phone="(03)5615320">
+                <header>
+                    <h2><a href="clinics/clinic-120.html">關東橋仁美牙醫診所</a></h2>
+                    <p class="manager">負責人：施性平</p>
+                </header>
+                <p class="address">地址：西大路165號1F</p>
+                <p class="phone">電話：(03)5615320</p>
+                <a class="cta" href="clinics/clinic-120.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="誼安牙醫診所" data-manager="薛文崚" data-address="復中里中央路178號1樓" data-phone="(03)5357700">
+                <header>
+                    <h2><a href="clinics/clinic-121.html">誼安牙醫診所</a></h2>
+                    <p class="manager">負責人：薛文崚</p>
+                </header>
+                <p class="address">地址：復中里中央路178號1樓</p>
+                <p class="phone">電話：(03)5357700</p>
+                <a class="cta" href="clinics/clinic-121.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="品傑牙醫診所" data-manager="陳明達" data-address="東南街１５０號" data-phone="(03)5619665">
+                <header>
+                    <h2><a href="clinics/clinic-122.html">品傑牙醫診所</a></h2>
+                    <p class="manager">負責人：陳明達</p>
+                </header>
+                <p class="address">地址：東南街１５０號</p>
+                <p class="phone">電話：(03)5619665</p>
+                <a class="cta" href="clinics/clinic-122.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="王存禎牙醫診所" data-manager="王存禎" data-address="食品路142號1樓" data-phone="(03)5615581">
+                <header>
+                    <h2><a href="clinics/clinic-123.html">王存禎牙醫診所</a></h2>
+                    <p class="manager">負責人：王存禎</p>
+                </header>
+                <p class="address">地址：食品路142號1樓</p>
+                <p class="phone">電話：(03)5615581</p>
+                <a class="cta" href="clinics/clinic-123.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="陳慧貞牙醫診所" data-manager="陳慧貞" data-address="建新路36號" data-phone="(03)5723629">
+                <header>
+                    <h2><a href="clinics/clinic-124.html">陳慧貞牙醫診所</a></h2>
+                    <p class="manager">負責人：陳慧貞</p>
+                </header>
+                <p class="address">地址：建新路36號</p>
+                <p class="phone">電話：(03)5723629</p>
+                <a class="cta" href="clinics/clinic-124.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="鄭牙醫診所" data-manager="鄭志賢" data-address="南大路３４３號" data-phone="(03)5265456">
+                <header>
+                    <h2><a href="clinics/clinic-125.html">鄭牙醫診所</a></h2>
+                    <p class="manager">負責人：鄭志賢</p>
+                </header>
+                <p class="address">地址：南大路３４３號</p>
+                <p class="phone">電話：(03)5265456</p>
+                <a class="cta" href="clinics/clinic-125.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="米羅牙醫診所" data-manager="曾朝國" data-address="光復路一段432號" data-phone="(03)5642009">
+                <header>
+                    <h2><a href="clinics/clinic-126.html">米羅牙醫診所</a></h2>
+                    <p class="manager">負責人：曾朝國</p>
+                </header>
+                <p class="address">地址：光復路一段432號</p>
+                <p class="phone">電話：(03)5642009</p>
+                <a class="cta" href="clinics/clinic-126.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="宏大牙醫診所" data-manager="羅文杰" data-address="食品路５４５號" data-phone="(03)5613537">
+                <header>
+                    <h2><a href="clinics/clinic-127.html">宏大牙醫診所</a></h2>
+                    <p class="manager">負責人：羅文杰</p>
+                </header>
+                <p class="address">地址：食品路５４５號</p>
+                <p class="phone">電話：(03)5613537</p>
+                <a class="cta" href="clinics/clinic-127.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="智信牙醫診所" data-manager="蔣智信" data-address="新莊街75號77號1樓" data-phone="(03)5781997">
+                <header>
+                    <h2><a href="clinics/clinic-128.html">智信牙醫診所</a></h2>
+                    <p class="manager">負責人：蔣智信</p>
+                </header>
+                <p class="address">地址：新莊街75號77號1樓</p>
+                <p class="phone">電話：(03)5781997</p>
+                <a class="cta" href="clinics/clinic-128.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="秀雅牙醫診所" data-manager="曾還慧" data-address="金山里金山北二街61號" data-phone="(03)5780580">
+                <header>
+                    <h2><a href="clinics/clinic-129.html">秀雅牙醫診所</a></h2>
+                    <p class="manager">負責人：曾還慧</p>
+                </header>
+                <p class="address">地址：金山里金山北二街61號</p>
+                <p class="phone">電話：(03)5780580</p>
+                <a class="cta" href="clinics/clinic-129.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="微笑牙醫診所" data-manager="陳恩翊" data-address="民族路一五八之一號一樓" data-phone="(03)5152408">
+                <header>
+                    <h2><a href="clinics/clinic-130.html">微笑牙醫診所</a></h2>
+                    <p class="manager">負責人：陳恩翊</p>
+                </header>
+                <p class="address">地址：民族路一五八之一號一樓</p>
+                <p class="phone">電話：(03)5152408</p>
+                <a class="cta" href="clinics/clinic-130.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="王子牙醫診所" data-manager="蕭雅尹" data-address="文華里田美三街20號" data-phone="(03)5337890">
+                <header>
+                    <h2><a href="clinics/clinic-131.html">王子牙醫診所</a></h2>
+                    <p class="manager">負責人：蕭雅尹</p>
+                </header>
+                <p class="address">地址：文華里田美三街20號</p>
+                <p class="phone">電話：(03)5337890</p>
+                <a class="cta" href="clinics/clinic-131.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="上上牙醫診所" data-manager="曾堃益" data-address="中山路４００號" data-phone="(03)5251383">
+                <header>
+                    <h2><a href="clinics/clinic-132.html">上上牙醫診所</a></h2>
+                    <p class="manager">負責人：曾堃益</p>
+                </header>
+                <p class="address">地址：中山路４００號</p>
+                <p class="phone">電話：(03)5251383</p>
+                <a class="cta" href="clinics/clinic-132.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="展新牙醫診所" data-manager="黃昱霖" data-address="勝利路一七五號二樓" data-phone="(03)5246312">
+                <header>
+                    <h2><a href="clinics/clinic-133.html">展新牙醫診所</a></h2>
+                    <p class="manager">負責人：黃昱霖</p>
+                </header>
+                <p class="address">地址：勝利路一七五號二樓</p>
+                <p class="phone">電話：(03)5246312</p>
+                <a class="cta" href="clinics/clinic-133.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="先進牙醫診所" data-manager="蘇大海" data-address="食品路417號" data-phone="(03)5228999">
+                <header>
+                    <h2><a href="clinics/clinic-134.html">先進牙醫診所</a></h2>
+                    <p class="manager">負責人：蘇大海</p>
+                </header>
+                <p class="address">地址：食品路417號</p>
+                <p class="phone">電話：(03)5228999</p>
+                <a class="cta" href="clinics/clinic-134.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="金明牙醫診所" data-manager="汪金豪" data-address="食品路１０３巷２號１Ｆ" data-phone="(03)5711899">
+                <header>
+                    <h2><a href="clinics/clinic-135.html">金明牙醫診所</a></h2>
+                    <p class="manager">負責人：汪金豪</p>
+                </header>
+                <p class="address">地址：食品路１０３巷２號１Ｆ</p>
+                <p class="phone">電話：(03)5711899</p>
+                <a class="cta" href="clinics/clinic-135.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="信愛牙醫診所" data-manager="胡哲雄" data-address="北大路29之1號2樓" data-phone="(03)5313760">
+                <header>
+                    <h2><a href="clinics/clinic-136.html">信愛牙醫診所</a></h2>
+                    <p class="manager">負責人：胡哲雄</p>
+                </header>
+                <p class="address">地址：北大路29之1號2樓</p>
+                <p class="phone">電話：(03)5313760</p>
+                <a class="cta" href="clinics/clinic-136.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="崇安牙醫診所" data-manager="黃俊仁" data-address="科園里科學園路33號1樓及2樓" data-phone="(03)5785936">
+                <header>
+                    <h2><a href="clinics/clinic-137.html">崇安牙醫診所</a></h2>
+                    <p class="manager">負責人：黃俊仁</p>
+                </header>
+                <p class="address">地址：科園里科學園路33號1樓及2樓</p>
+                <p class="phone">電話：(03)5785936</p>
+                <a class="cta" href="clinics/clinic-137.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="珂牙醫診所" data-manager="彭明駿" data-address="武昌街１０６號" data-phone="(03)5234023">
+                <header>
+                    <h2><a href="clinics/clinic-138.html">珂牙醫診所</a></h2>
+                    <p class="manager">負責人：彭明駿</p>
+                </header>
+                <p class="address">地址：武昌街１０６號</p>
+                <p class="phone">電話：(03)5234023</p>
+                <a class="cta" href="clinics/clinic-138.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="維泰牙醫診所" data-manager="詹文玄" data-address="民族路４７號" data-phone="(03)5320432">
+                <header>
+                    <h2><a href="clinics/clinic-139.html">維泰牙醫診所</a></h2>
+                    <p class="manager">負責人：詹文玄</p>
+                </header>
+                <p class="address">地址：民族路４７號</p>
+                <p class="phone">電話：(03)5320432</p>
+                <a class="cta" href="clinics/clinic-139.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="溫牙醫診所" data-manager="溫建中" data-address="三民里民族路177號" data-phone="(03)5331081">
+                <header>
+                    <h2><a href="clinics/clinic-140.html">溫牙醫診所</a></h2>
+                    <p class="manager">負責人：溫建中</p>
+                </header>
+                <p class="address">地址：三民里民族路177號</p>
+                <p class="phone">電話：(03)5331081</p>
+                <a class="cta" href="clinics/clinic-140.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="禮正牙醫診所" data-manager="姜禮正" data-address="光復路一段３８１號" data-phone="(03)5776703">
+                <header>
+                    <h2><a href="clinics/clinic-141.html">禮正牙醫診所</a></h2>
+                    <p class="manager">負責人：姜禮正</p>
+                </header>
+                <p class="address">地址：光復路一段３８１號</p>
+                <p class="phone">電話：(03)5776703</p>
+                <a class="cta" href="clinics/clinic-141.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="沈牙醫診所" data-manager="沈顯坤" data-address="博愛街138號" data-phone="(03)5725735">
+                <header>
+                    <h2><a href="clinics/clinic-142.html">沈牙醫診所</a></h2>
+                    <p class="manager">負責人：沈顯坤</p>
+                </header>
+                <p class="address">地址：博愛街138號</p>
+                <p class="phone">電話：(03)5725735</p>
+                <a class="cta" href="clinics/clinic-142.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="新明牙醫診所" data-manager="徐煥明" data-address="光復路一段４３６號" data-phone="(03)5798759">
+                <header>
+                    <h2><a href="clinics/clinic-143.html">新明牙醫診所</a></h2>
+                    <p class="manager">負責人：徐煥明</p>
+                </header>
+                <p class="address">地址：光復路一段４３６號</p>
+                <p class="phone">電話：(03)5798759</p>
+                <a class="cta" href="clinics/clinic-143.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="唐牙醫診所" data-manager="唐明旺" data-address="南大路８１６號" data-phone="(03)5267838">
+                <header>
+                    <h2><a href="clinics/clinic-144.html">唐牙醫診所</a></h2>
+                    <p class="manager">負責人：唐明旺</p>
+                </header>
+                <p class="address">地址：南大路８１６號</p>
+                <p class="phone">電話：(03)5267838</p>
+                <a class="cta" href="clinics/clinic-144.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="親親牙醫診所" data-manager="陳天河" data-address="東南街145號" data-phone="(03)5252771">
+                <header>
+                    <h2><a href="clinics/clinic-145.html">親親牙醫診所</a></h2>
+                    <p class="manager">負責人：陳天河</p>
+                </header>
+                <p class="address">地址：東南街145號</p>
+                <p class="phone">電話：(03)5252771</p>
+                <a class="cta" href="clinics/clinic-145.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="明湖牙醫診所" data-manager="林事銘" data-address="南大路４７１號" data-phone="(03)5256237">
+                <header>
+                    <h2><a href="clinics/clinic-146.html">明湖牙醫診所</a></h2>
+                    <p class="manager">負責人：林事銘</p>
+                </header>
+                <p class="address">地址：南大路４７１號</p>
+                <p class="phone">電話：(03)5256237</p>
+                <a class="cta" href="clinics/clinic-146.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="光復牙醫診所" data-manager="王瑞榮" data-address="光復路二段３５７號" data-phone="(03)5726508">
+                <header>
+                    <h2><a href="clinics/clinic-147.html">光復牙醫診所</a></h2>
+                    <p class="manager">負責人：王瑞榮</p>
+                </header>
+                <p class="address">地址：光復路二段３５７號</p>
+                <p class="phone">電話：(03)5726508</p>
+                <a class="cta" href="clinics/clinic-147.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="三民牙醫診所" data-manager="羅鴻政" data-address="中央路２８８號" data-phone="(03)5310486">
+                <header>
+                    <h2><a href="clinics/clinic-148.html">三民牙醫診所</a></h2>
+                    <p class="manager">負責人：羅鴻政</p>
+                </header>
+                <p class="address">地址：中央路２８８號</p>
+                <p class="phone">電話：(03)5310486</p>
+                <a class="cta" href="clinics/clinic-148.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="陳奕熹牙醫診所" data-manager="陳奕熹" data-address="民主路99號2樓" data-phone="(03)5430272">
+                <header>
+                    <h2><a href="clinics/clinic-149.html">陳奕熹牙醫診所</a></h2>
+                    <p class="manager">負責人：陳奕熹</p>
+                </header>
+                <p class="address">地址：民主路99號2樓</p>
+                <p class="phone">電話：(03)5430272</p>
+                <a class="cta" href="clinics/clinic-149.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="中心牙醫診所" data-manager="錢武興" data-address="北大路76號" data-phone="(03)5152786">
+                <header>
+                    <h2><a href="clinics/clinic-150.html">中心牙醫診所</a></h2>
+                    <p class="manager">負責人：錢武興</p>
+                </header>
+                <p class="address">地址：北大路76號</p>
+                <p class="phone">電話：(03)5152786</p>
+                <a class="cta" href="clinics/clinic-150.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="曾元春牙醫診所" data-manager="曾元春" data-address="北大路２７－１號" data-phone="(03)5336931">
+                <header>
+                    <h2><a href="clinics/clinic-151.html">曾元春牙醫診所</a></h2>
+                    <p class="manager">負責人：曾元春</p>
+                </header>
+                <p class="address">地址：北大路２７－１號</p>
+                <p class="phone">電話：(03)5336931</p>
+                <a class="cta" href="clinics/clinic-151.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="聯合牙醫診所" data-manager="鄧世玲" data-address="光復路一段631號1樓、2樓" data-phone="(03)5770643">
+                <header>
+                    <h2><a href="clinics/clinic-152.html">聯合牙醫診所</a></h2>
+                    <p class="manager">負責人：鄧世玲</p>
+                </header>
+                <p class="address">地址：光復路一段631號1樓、2樓</p>
+                <p class="phone">電話：(03)5770643</p>
+                <a class="cta" href="clinics/clinic-152.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="明皓牙醫診所" data-manager="黃明燦" data-address="食品路二二二號" data-phone="(03)5618777">
+                <header>
+                    <h2><a href="clinics/clinic-153.html">明皓牙醫診所</a></h2>
+                    <p class="manager">負責人：黃明燦</p>
+                </header>
+                <p class="address">地址：食品路二二二號</p>
+                <p class="phone">電話：(03)5618777</p>
+                <a class="cta" href="clinics/clinic-153.html">查看診所網站</a>
+            </article>
+            
+            <article class="card" data-name="綻美牙醫診所" data-manager="張鑫偉" data-address="占梅路20號1樓、22號1樓" data-phone="(03)6686520">
+                <header>
+                    <h2><a href="clinics/clinic-154.html">綻美牙醫診所</a></h2>
+                    <p class="manager">負責人：張鑫偉</p>
+                </header>
+                <p class="address">地址：占梅路20號1樓、22號1樓</p>
+                <p class="phone">電話：(03)6686520</p>
+                <a class="cta" href="clinics/clinic-154.html">查看診所網站</a>
+            </article>
+            
+            </section>
+        </main>
+        <footer>資料來源：Dentist_Hsinchu_City.csv</footer>
+        <script>
+            const searchInput = document.getElementById('search');
+            const cards = Array.from(document.querySelectorAll('.card'));
+            searchInput.addEventListener('input', () => {
+                const keyword = searchInput.value.trim().toLowerCase();
+                cards.forEach(card => {
+                    const content = [
+                        card.dataset.name,
+                        card.dataset.manager,
+                        card.dataset.address,
+                        card.dataset.phone,
+                    ].join(' ').toLowerCase();
+                    const matched = content.includes(keyword);
+                    card.style.display = matched ? 'flex' : 'none';
+                });
+            });
+        </script>
+    </body>
+    </html>
+    
