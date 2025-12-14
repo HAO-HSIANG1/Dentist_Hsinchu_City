@@ -1,0 +1,114 @@
+
+/* Base styling for generated clinic pages */
+:root {
+    --primary: #1e90ff;
+    --text-main: #1a1a1a;
+    --muted: #4b5563;
+    --card-bg: #ffffff;
+    --bg: #f4f7fb;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', 'Noto Sans TC', sans-serif;
+    margin: 0;
+    background: var(--bg);
+    color: var(--text-main);
+}
+
+a { color: var(--primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+header {
+    background: #0f172a;
+    color: #f8fafc;
+    padding: 24px 16px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.16);
+}
+
+main {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    background: var(--card-bg);
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+}
+
+.meta {
+    margin: 6px 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 8px;
+    background: #e0f2fe;
+    color: #075985;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    margin-right: 8px;
+}
+
+.search {
+    margin: 16px 0 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.section {
+    margin-top: 16px;
+    padding: 16px;
+    background: #eef2ff;
+    border-radius: 10px;
+}
+
+.detail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px 20px;
+    margin-top: 12px;
+}
+
+.detail-item {
+    background: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+}
+
+.footer {
+    text-align: center;
+    margin-top: 32px;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
