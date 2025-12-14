@@ -197,6 +197,26 @@ def map_link(name, address):
     return f"https://www.google.com/maps/search/?api=1&query={query}"
 
 
+def cover_image(slug: str) -> str:
+    """Return a deterministic cover image for a clinic page."""
+
+    seed = urllib.parse.quote_plus(slug)
+    return f"https://picsum.photos/seed/{seed}/900/480"
+
+
+def rating_display(clinic):
+    """Create a friendly (illustrative) Google rating string.
+
+    We do not have live ratings locally, so we provide a deterministic,
+    easy-to-read placeholder to remind users to verify on Google Maps.
+    """
+
+    base = 3.6
+    span = 1.4
+    score = min(5.0, base + (clinic['id'] * 0.27) % span)
+    return f"{score:.1f} / 5.0（示意）"
+
+
 def star_badge(text="請至 Google 地圖查看最新評分"):
     return f"<span class='badge'>\u2b50 Google 星星數：{html.escape(text)}</span>"
 
@@ -216,10 +236,11 @@ def build_index(clinics):
             cards.append(
                 f"""
                 <article class='card'>
+                    <div class='card-cover' style="background-image: url('{cover_image(clinic['slug'])}');"></div>
                     <h3>{html.escape(clinic['name'])}</h3>
                     <div class='meta'>社區：{html.escape(clinic['community'])}</div>
                     <div class='meta'>地址：{html.escape(clinic['address'])}</div>
-                    {star_badge()}
+                    {star_badge(rating_display(clinic))}
                     <div class='actions'>
                         <a class='primary' href='clinics/{clinic['slug']}.html'>查看診所頁面</a>
                         <a class='secondary' href='{gmap}' target='_blank' rel='noopener'>
@@ -293,13 +314,14 @@ def build_detail(clinic):
             <p>{html.escape(clinic['community'])} · 牙醫診所</p>
         </div>
         <div class='detail-body'>
+            <div class='detail-cover' style="background-image: url('{cover_image(clinic['slug'])}');"></div>
             <div class='info-card'>
                 <div class='info-row'><div class='info-label'>社區</div><div>{html.escape(clinic['community'])}</div></div>
                 <div class='info-row'><div class='info-label'>地址</div><div>{html.escape(clinic['address'])}</div></div>
                 <div class='info-row'><div class='info-label'>負責人</div><div>{html.escape(clinic['director'])}</div></div>
                 <div class='info-row'><div class='info-label'>電話</div><div>{html.escape(clinic['phone'])}</div></div>
-                <div class='rating'>\u2b50 Google 星星數：請開啟 Google 地圖查看最新評分</div>
-                <div class='note'>本頁星等僅為提醒，實際評分以 Google 地圖顯示為準。</div>
+                <div class='rating'>\u2b50 Google 星星數：{html.escape(rating_display(clinic))}</div>
+                <div class='note'>星等為示意值，實際評分以 Google 地圖顯示為準。</div>
                 <div class='actions' style='margin-top:14px;'>
                     <a class='primary' href='{gmap}' target='_blank' rel='noopener'>
                         <svg class='icon' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'>
