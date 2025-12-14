@@ -50,10 +50,10 @@ main { padding: 24px 20px 60px; max-width: 1200px; margin: 0 auto; }
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 16px;
 }
-.card {
+.card { 
     background: var(--card);
     border-radius: 12px;
-    padding: 16px;
+    padding: 0 0 16px;
     box-shadow: var(--shadow);
     transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
@@ -61,8 +61,25 @@ main { padding: 24px 20px 60px; max-width: 1200px; margin: 0 auto; }
     transform: translateY(-3px);
     box-shadow: 0 14px 36px rgba(0,0,0,0.12);
 }
-.card h3 { margin: 0 0 8px; font-size: 18px; }
-.card .meta { color: var(--muted); font-size: 14px; margin: 4px 0; }
+.card-cover {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 12px 12px 0 0;
+    background: linear-gradient(135deg, rgba(28,109,208,0.16), rgba(79,70,229,0.12));
+}
+.card-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.card h3 { padding: 0 16px; margin: 12px 0 8px; font-size: 18px; }
+.card .meta { padding: 0 16px; }
+.card .badge { margin-left: 16px; }
+.card .actions { padding: 0 16px; }
+.card h3 { margin: 12px 0 8px; font-size: 18px; }
+.card .meta { color: var(--muted); font-size: 14px; margin: 4px 16px; }
 
 .badge {
     display: inline-flex;
@@ -101,12 +118,26 @@ main { padding: 24px 20px 60px; max-width: 1200px; margin: 0 auto; }
 }
 
 .detail-hero {
-    background: #0f172a;
+    background: linear-gradient(120deg, #0f172a 0%, #1c6dd0 60%, #4f46e5 100%);
     color: white;
     padding: 36px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 24px;
+    align-items: center;
 }
 .detail-hero h1 { margin: 0 0 8px; }
 .detail-hero p { margin: 6px 0 0; color: #cbd5f5; }
+.hero-media {
+    width: 100%;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.16);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+}
+.hero-media img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.hero-copy { display: flex; flex-direction: column; gap: 6px; }
 .detail-body {
     max-width: 860px;
     margin: 0 auto;
@@ -143,3 +174,8 @@ main { padding: 24px 20px 60px; max-width: 1200px; margin: 0 auto; }
 .back-link { display: inline-flex; align-items: center; gap: 8px; color: var(--primary); font-weight: 700; text-decoration: none; }
 
 footer { text-align: center; color: var(--muted); padding: 24px 0 40px; font-size: 14px; }
+
+@media (max-width: 700px) {
+    .info-row { grid-template-columns: 1fr; }
+    .detail-hero { grid-template-columns: 1fr; }
+}
