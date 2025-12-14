@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700&display=swap');
+
+:root {
+  --bg: #f6f8fa;
+  --card: #ffffff;
+  --accent: #2563eb;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans TC', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header.site-header {
+  background: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+  color: white;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+header.site-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 2rem;
+}
+
+header.site-header p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1.5rem 2rem;
+}
+
+.community-section {
+  margin-bottom: 2.5rem;
+}
+
+.community-section h2 {
+  margin: 0 0 1rem;
+  border-left: 6px solid var(--accent);
+  padding-left: 0.75rem;
+}
+
+.clinic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.clinic-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.1rem;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.clinic-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 40px rgba(37, 99, 235, 0.12);
+}
+
+.clinic-card h3 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.clinic-card .rating {
+  margin-top: 0.35rem;
+  color: #f59e0b;
+  font-weight: 700;
+}
+
+.rating .rating-number {
+  color: var(--muted);
+  font-weight: 600;
+  margin-left: 0.35rem;
+}
+
+.star {
+  font-size: 1rem;
+}
+
+.star.filled {
+  color: #f59e0b;
+}
+
+.star.half {
+  position: relative;
+  color: #f59e0b;
+}
+
+.star.half::after {
+  content: '☆';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  color: #d1d5db;
+  overflow: hidden;
+}
+
+.clinic-card dl,
+.clinic-detail dl {
+  margin: 0.8rem 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;
+}
+
+.clinic-card dt,
+.clinic-detail dt {
+  font-weight: 700;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.clinic-card dd,
+.clinic-detail dd {
+  margin: 0.1rem 0 0;
+  font-size: 0.95rem;
+}
+
+.loading,
+.error {
+  color: var(--muted);
+  text-align: center;
+}
+
+.error {
+  color: #b91c1c;
+  font-weight: 600;
+}
+
+.clinic-detail header {
+  background: var(--card);
+  padding: 1.2rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+}
+
+.clinic-detail h1 {
+  margin: 0;
+}
+
+.breadcrumb {
+  margin: 0 0 0.5rem;
+}
+
+.clinic-detail .info {
+  margin-top: 1rem;
+  background: var(--card);
+  padding: 1.2rem;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+@media (max-width: 600px) {
+  header.site-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .clinic-card {
+    padding: 1rem;
+  }
+}
