@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>牙醫診所獨立頁面</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="logo">牙醫診所獨立頁面</div>
+        <p class="tagline">包含封面、地址、Google 星等與地圖連結。</p>
+      </div>
+    </header>
+
+    <main>
+      <div class="detail-layout">
+        <section class="detail-panel">
+          <img id="cover" alt="診所封面" class="detail-cover" loading="lazy" />
+          <h2 id="clinic-name"></h2>
+          <div class="meta">
+            <div class="meta-row"><span class="icon">📍</span><span id="address"></span></div>
+            <div class="meta-row"><span class="icon">👤</span><span id="principal"></span></div>
+            <div class="meta-row"><span class="icon">📞</span><span id="phone"></span></div>
+            <div class="meta-row"><span class="icon">🏷️</span><span id="community"></span></div>
+            <div class="meta-row"><span class="icon">#</span><span id="area"></span></div>
+            <div class="meta-row" id="rating"></div>
+          </div>
+          <div class="actions">
+            <a id="map-link" class="button" target="_blank" rel="noopener">
+              🗺️ Google 地圖
+            </a>
+            <a class="button primary" href="./index.html">⬅ 返回總表</a>
+          </div>
+        </section>
+
+        <aside class="detail-panel">
+          <h3>小貼士</h3>
+          <p>若要顯示 Google 星等，請在 <code>docs/config.js</code> 中填入 Maps API Key。</p>
+          <p>星等資料將透過 Google Places API 即時取得，並顯示於此。</p>
+        </aside>
+      </div>
+    </main>
+
+    <footer>資料來源：Dentist_Hsinchu_City.csv。設定 Google Maps API Key 可顯示即時星等。</footer>
+
+    <script src="./config.js"></script>
+    <script type="module" src="./assets/clinic.js"></script>
+  </body>
+</html>

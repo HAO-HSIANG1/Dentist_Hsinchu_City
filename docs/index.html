@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>新竹市牙醫診所地圖</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      name="description"
+      content="依社區分類的新竹市牙醫診所索引，點擊即可查看診所獨立頁面、Google 地圖與星等資訊。"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <div class="logo">新竹市牙醫診所地圖</div>
+        <p class="tagline">依社區分類，快速找到鄰近的牙醫診所與 Google 地圖連結。</p>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <input type="search" id="search" placeholder="輸入診所名稱或里別關鍵字搜尋" aria-label="搜尋診所" />
+      </section>
+
+      <section class="section" id="community-container">
+        <h2>社區分類</h2>
+        <div id="community-list" class="community-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer>資料來源：Dentist_Hsinchu_City.csv。設定 Google Maps API Key 可顯示即時星等。</footer>
+
+    <script src="./config.js"></script>
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>
