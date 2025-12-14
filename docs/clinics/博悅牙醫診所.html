@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>博悅牙醫診所 | 新竹市牙醫診所</title>
+    <style>
+        :root {
+            font-family: 'Noto Sans TC', 'Noto Sans', sans-serif;
+            color: #1f2933;
+            background: #f7f9fb;
+        }
+        body {
+            margin: 0;
+            padding: 0 1rem 2rem;
+            line-height: 1.6;
+        }
+        header {
+            background: #0f766e;
+            color: white;
+            padding: 1.5rem 1rem;
+            margin-bottom: 1.5rem;
+        }
+        h1, h2, h3 {
+            margin: 0;
+            letter-spacing: 0.03em;
+        }
+        a { color: #0f766e; }
+        a:hover { color: #0b5d57; }
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.25rem;
+            box-shadow: 0 10px 25px rgba(15, 118, 110, 0.08);
+            margin-bottom: 1rem;
+        }
+        .clinic-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1rem;
+        }
+        .label {
+            font-size: 0.9rem;
+            color: #52606d;
+            margin-right: 0.5rem;
+        }
+        .value {
+            font-weight: 600;
+        }
+        .breadcrumbs {
+            margin: 0.5rem 0 1rem;
+            font-size: 0.95rem;
+        }
+        footer {
+            margin-top: 2rem;
+            color: #52606d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="breadcrumbs"><a style="color: white; text-decoration: none;" href="../index.html">← 返回列表</a></div>
+        <h1>博悅牙醫診所</h1>
+        <p>新竹市牙醫診所資訊</p>
+    </header>
+    <main>
+        <section class="card">
+            <h2>診所資訊</h2>
+            <p><span class="label">地址：</span><span class="value">水田里演藝路25號B1</span></p>
+            <p><span class="label">行政區域代碼：</span><span class="value">10018020</span></p>
+            <p><span class="label">縣市別代碼：</span><span class="value">10018</span></p>
+            <p><span class="label">負責人：</span><span class="value">盧中達</span></p>
+            <p><span class="label">聯絡電話：</span><span class="value">(03)5424303</span></p>
+        </section>
+    </main>
+    <footer>資料來源：Dentist_Hsinchu_City.csv</footer>
+</body>
+</html>
